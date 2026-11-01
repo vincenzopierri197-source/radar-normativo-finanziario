@@ -80,7 +80,7 @@ export function publishedDay(item) {
 export async function ghJson(env, path, fetchFn = fetch) {
   const repo = String(env?.GITHUB_REPO || "").trim();
   const branch = String(env?.GITHUB_BRANCH || "main").trim();
-  if (!repo || !/^[^/]+\\/[^/]+$/.test(repo)) throw new Error("GITHUB_REPO non configurato correttamente");
+  if (!repo || repo.split("/").length !== 2 || repo.split("/").some((part) => !part.trim())) throw new Error("GITHUB_REPO non configurato correttamente");
   const url = `https://raw.githubusercontent.com/${repo}/${branch}/${path}`;
   let response;
   try { response = await fetchFn(url, { cf: { cacheTtl: 120 }, signal: AbortSignal.timeout(8000) }); }
