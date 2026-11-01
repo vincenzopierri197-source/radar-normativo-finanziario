@@ -5,12 +5,15 @@ import hashlib
 import json
 import posixpath
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlsplit, urlunsplit
 
 from radar_normativo.analysis import analyze_item
 from radar_normativo.classifier import classify_topics
+
+ROME = ZoneInfo("Europe/Rome")
 
 
 def _now() -> str:
@@ -27,6 +30,20 @@ def _utc_day(value: Any) -> str:
         if parsed.tzinfo is None:
             parsed = parsed.replace(tzinfo=timezone.utc)
         return parsed.astimezone(timezone.utc).date().isoformat()
+    except ValueError:
+        return timestamp[:10]
+
+
+def _rome_day(value: Any) -> str:
+    """Giorno civile italiano di un timestamp ISO."""
+    timestamp = str(value or "").strip()
+    if not timestamp:
+        return ""
+    try:
+        parsed = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(ROME).date().isoformat()
     except ValueError:
         return timestamp[:10]
 
@@ -122,6 +139,11 @@ def update_archive(
             previous["seen_count"] = seen_count
             if canonical_url:
                 id_by_url[canonical_url] = existing_id
+            # Mantiene le schede scoperte oggi nel flusso di notifica finché
+            # Telegram non le registra nel ledger. Serve a rendere sicuri i retry
+            # quando l'archivio è già stato salvato ma l'invio è fallito.
+            if _rome_day(first_seen) == _rome_day(scan_time):
+                newly_discovered.append(dict(previous))
         else:
             item["id"] = candidate_id
             item["first_seen_at"] = scan_time
