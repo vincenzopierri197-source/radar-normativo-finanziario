@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, "fix/**"]
   pull_request:
   workflow_dispatch:
 
@@ -15,6 +15,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      - name: Test Worker
+        run: node --test worker/index.test.js
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
