@@ -120,3 +120,33 @@ def test_archive_observation_count_uses_utc_day_across_timezones(tmp_path):
     saved = json.loads(archive.read_text(encoding="utf-8"))["items"][0]
     assert saved["seen_count"] == 1
     assert saved["last_seen_at"] == "2026-10-21T01:00:00+00:00"
+
+
+
+def test_archive_reemits_items_first_seen_today_for_telegram_retries(tmp_path):
+    latest = tmp_path / "latest.json"
+    archive = tmp_path / "archive.json"
+    new_items = tmp_path / "new_items.json"
+    item = {"id": "retry-me", "title": "Atto da notificare", "url": "https://example.test/retry"}
+
+    # Prima scansione: scoperta alle 08:00 italiane (07:00 UTC in ora solare).
+    write_scan(latest, "2026-11-01T07:00:00+00:00", [item])
+    first = update_archive(latest, archive, new_items)
+    assert first["new_item_count"] == 1
+
+    # Seconda scansione: l'archivio è già stato salvato, ma la notifica
+    # potrebbe essere fallita. La scheda deve restare nel flusso di retry.
+    write_scan(latest, "2026-11-01T08:00:00+00:00", [item])
+    second = update_archive(latest, archive, new_items)
+    retry_payload = json.loads(new_items.read_text(encoding="utf-8"))
+
+    assert second["new_item_count"] == 1
+    assert [entry["id"] for entry in retry_payload["items"]] == ["retry-me"]
+
+    # Il giorno successivo la scheda non deve più essere riproposta come nuova.
+    write_scan(latest, "2026-11-02T07:00:00+00:00", [item])
+    third = update_archive(latest, archive, new_items)
+    next_day_payload = json.loads(new_items.read_text(encoding="utf-8"))
+
+    assert third["new_item_count"] == 0
+    assert next_day_payload["items"] == []
