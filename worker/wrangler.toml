@@ -4,7 +4,7 @@ compatibility_date = "2025-09-01"
 
 [vars]
 # Repository da cui il bot legge archivio e fonti (deve essere pubblica).
-GITHUB_REPO = "vincenzopierri197-source/radar-normativo"
+GITHUB_REPO = "vincenzopierri197-source/radar-normativo-finanziario"
 GITHUB_BRANCH = "main"
 
 # Namespace KV per i filtri di ogni chat.
