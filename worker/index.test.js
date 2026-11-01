@@ -201,7 +201,7 @@ test("Telegram sendMessage verifies HTTP status and Telegram ok flag", async () 
   assert.equal(success.message_id, 7);
   await assert.rejects(
     () => sendMessage(e, "123", "test", async () => new Response(JSON.stringify({ ok: false, description: "chat not found" }), { status: 200 })),
-    /Telegram ha rifiutato/
+    /Invio Telegram fallito/
   );
   await assert.rejects(
     () => sendMessage(e, "123", "test", async () => new Response(JSON.stringify({ ok: false }), { status: 500 })),
