@@ -77,18 +77,24 @@ export function publishedDay(item) {
 }
 
 // ---------- accesso dati ----------
-async function ghJson(env, path) {
-  const url = `https://raw.githubusercontent.com/${env.GITHUB_REPO}/${env.GITHUB_BRANCH || "main"}/${path}`;
-  try {
-    const r = await fetch(url, { cf: { cacheTtl: 120 }, signal: AbortSignal.timeout(8000) });
-    return r.ok ? await r.json() : null;
-  } catch {
-    return null;
-  }
+export async function ghJson(env, path, fetchFn = fetch) {
+  const repo = String(env?.GITHUB_REPO || "").trim();
+  const branch = String(env?.GITHUB_BRANCH || "main").trim();
+  if (!repo || !/^[^/]+\\/[^/]+$/.test(repo)) throw new Error("GITHUB_REPO non configurato correttamente");
+  const url = `https://raw.githubusercontent.com/${repo}/${branch}/${path}`;
+  let response;
+  try { response = await fetchFn(url, { cf: { cacheTtl: 120 }, signal: AbortSignal.timeout(8000) }); }
+  catch { throw new Error(`GitHub non raggiungibile durante la lettura di ${path}`); }
+  if (!response.ok) throw new Error(`GitHub ha restituito HTTP ${response.status} per ${path}`);
+  try { return await response.json(); }
+  catch { throw new Error(`GitHub ha restituito JSON non valido per ${path}`); }
 }
-const archiveItems = async (env) => {
-  const a = await ghJson(env, "data/archive.json");
-  return { archive: a || {}, items: Array.isArray(a?.items) ? a.items.filter((i) => i && typeof i === "object") : [] };
+export const archiveItems = async (env, fetchFn = fetch) => {
+  const archive = await ghJson(env, "data/archive.json", fetchFn);
+  if (!archive || typeof archive !== "object" || Array.isArray(archive) || !Array.isArray(archive.items)) {
+    throw new Error("Archivio GitHub non valido: manca la lista items");
+  }
+  return { archive, items: archive.items.filter((i) => i && typeof i === "object") };
 };
 
 async function getFilters(env, chat) {
@@ -126,7 +132,7 @@ async function answerWithGroq(question, env, deps = {}) {
   if (!env.GROQ_API_KEY) {
     return "La funzione IA non è ancora configurata. L'amministratore deve aggiungere il secret GROQ_API_KEY nelle impostazioni del Worker Cloudflare.";
   }
-  const { items } = await archiveItems(env);
+  const { items } = await archiveItems(env, deps.fetchGithub || fetch);
   const terms = question.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter((t) => t.length > 2);
   const relevant = items.map((item) => {
     const title = String(item.title || "");
@@ -512,16 +518,32 @@ export async function handleCommand(text, chatId, env, deps = {}) {
       return f.length ? "Filtri attivi: " + f.join(", ") : "Nessun filtro attivo. Imposta con /filtri lavoro, fisco oppure usa /filtri off.";
     }
     case "/fonti": {
-      const cfg = await ghJson(env, "config/sources.json");
+      const cfg = await ghJson(env, "config/sources.json", deps.fetchGithub || fetch);
       const sources = Array.isArray(cfg?.sources) ? cfg.sources : [];
       if (!sources.length) return "Non riesco a leggere le fonti configurate.";
       return "Fonti configurate:\n" + sources.map((s) => `• ${s.name || "Fonte senza nome"}\n  ${s.url || ""}`).join("\n");
     }
     case "/stato": {
-      const { archive, items } = await archiveItems(env);
-      const cfg = await ghJson(env, "config/sources.json");
-      const nSources = Array.isArray(cfg?.sources) ? cfg.sources.length : 0;
-      return `Radar Normativo: bot attivo (Cloudflare Workers).\nElementi in archivio: ${items.length}\nArchivio aggiornato: ${archive.updated_at || "non disponibile"}\nFonti configurate: ${nSources}\nLo stato giuridico degli atti non è certificato automaticamente.`;
+      const fetchGithub = deps.fetchGithub || fetch;
+      const [archiveResult, sourcesResult] = await Promise.allSettled([
+        archiveItems(env, fetchGithub),
+        ghJson(env, "config/sources.json", fetchGithub)
+      ]);
+      const lines = ["Radar Normativo: bot attivo (Cloudflare Workers)."];
+      if (archiveResult.status === "fulfilled") {
+        const { archive, items } = archiveResult.value;
+        lines.push(`Archivio: OK · ${items.length} elementi · aggiornato ${archive.updated_at || "data non disponibile"}`);
+      } else {
+        lines.push(`Archivio: ERRORE · ${String(archiveResult.reason?.message || "lettura non riuscita").slice(0, 180)}`);
+      }
+      if (sourcesResult.status === "fulfilled" && Array.isArray(sourcesResult.value?.sources)) {
+        lines.push(`Fonti configurate: OK · ${sourcesResult.value.sources.length}`);
+      } else {
+        const reason = sourcesResult.status === "rejected" ? sourcesResult.reason?.message : "configurazione fonti non valida";
+        lines.push(`Fonti configurate: ERRORE · ${String(reason || "lettura non riuscita").slice(0, 180)}`);
+      }
+      lines.push("Lo stato giuridico degli atti non è certificato automaticamente.");
+      return lines.join("\n");
     }
     case "/ia": {
       if (!argument) return "Uso: /ia seguito dalla domanda normativa. Esempio: /ia quali novità fiscali sono state pubblicate?";
@@ -536,7 +558,7 @@ export async function handleCommand(text, chatId, env, deps = {}) {
       if (!argument) return "Uso: /cerca parola o argomento";
       const term = argument.toLowerCase();
       const filters = await getFilters(env, chat);
-      const { items } = await archiveItems(env);
+      const { items } = await archiveItems(env, deps.fetchGithub || fetch);
       const found = items.filter((i) => `${i.title || ""} ${i.summary || ""}`.toLowerCase().includes(term) && matchesFilter(i, filters));
       return formatItems(found, `Nessun risultato per «${argument}».`);
     }
@@ -545,7 +567,7 @@ export async function handleCommand(text, chatId, env, deps = {}) {
     case "/ieri":
     case "/ultimi7giorni": {
       const filters = await getFilters(env, chat);
-      let { items } = await archiveItems(env);
+      let { items } = await archiveItems(env, deps.fetchGithub || fetch);
       items = items.sort((a, b) => String(b.published_at || "").localeCompare(String(a.published_at || ""))).filter((i) => matchesFilter(i, filters));
       const today = romeDay(deps.now || new Date());
       let heading = "Ultime pubblicazioni";
@@ -570,12 +592,25 @@ export async function handleCommand(text, chatId, env, deps = {}) {
 }
 
 // ---------- webhook ----------
-async function sendMessage(env, chatId, text) {
-  await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ chat_id: chatId, text: text.slice(0, 4000), disable_web_page_preview: true }),
-  });
+export async function sendMessage(env, chatId, text, fetchFn = fetch) {
+  if (!env?.TELEGRAM_BOT_TOKEN) throw new Error("TELEGRAM_BOT_TOKEN non configurato");
+  let response;
+  try {
+    response = await fetchFn(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ chat_id: chatId, text: text.slice(0, 4000), disable_web_page_preview: true }),
+      signal: AbortSignal.timeout(10000)
+    });
+  } catch { throw new Error("Telegram non raggiungibile o timeout durante sendMessage"); }
+  let payload;
+  try { payload = await response.json(); }
+  catch { throw new Error(`Telegram ha restituito una risposta non valida (HTTP ${response.status})`); }
+  if (!response.ok || payload?.ok !== true) {
+    const description = String(payload?.description || "errore API").slice(0, 180);
+    throw new Error(`Invio Telegram fallito (HTTP ${response.status}): ${description}`);
+  }
+  return payload.result;
 }
 
 export default {
@@ -596,7 +631,7 @@ export default {
         let reply;
         try { reply = await handleCommand(text, msg.chat.id, env); }
         catch { reply = "Errore temporaneo nell'elaborazione del comando. Riprova tra poco."; }
-        await sendMessage(env, msg.chat.id, reply);
+        try { await sendMessage(env, msg.chat.id, reply); }\n        catch (error) { console.error("Telegram sendMessage failed:", String(error?.message || error).slice(0, 240)); }
       })()
     );
     return new Response("ok");
