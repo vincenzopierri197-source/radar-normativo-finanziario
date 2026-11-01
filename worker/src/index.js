@@ -631,7 +631,8 @@ export default {
         let reply;
         try { reply = await handleCommand(text, msg.chat.id, env); }
         catch { reply = "Errore temporaneo nell'elaborazione del comando. Riprova tra poco."; }
-        try { await sendMessage(env, msg.chat.id, reply); }\n        catch (error) { console.error("Telegram sendMessage failed:", String(error?.message || error).slice(0, 240)); }
+        try { await sendMessage(env, msg.chat.id, reply); }
+        catch (error) { console.error("Telegram sendMessage failed:", String(error?.message || error).slice(0, 240)); }
       })()
     );
     return new Response("ok");
