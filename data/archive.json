@@ -1,8 +1,487 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31T09:01:27.451791+00:00",
-  "item_count": 361,
+  "updated_at": "2026-11-01T13:30:35.963643+00:00",
+  "item_count": 380,
   "items": [
+    {
+      "id": "f1094c5cb5a48e41f989",
+      "title": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMMISSARIO STRAORDINARIO DI GOVERNO PER LA REALIZZAZIONE DEL NUOVO POLICLINICO UMBERTO I - ORDINANZA 21 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05711/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:41+00:00",
+      "summary": "Approvazione del Documento di indirizzo alla progettazione (DIP)  per\nla realizzazione del nuovo Ospedale Policlinico Umberto  I  di  Roma:\nderoghe all'art. 38, commi 1 e 3, del decreto legislativo n.  36/2023\ne successive modificazioni ed integrazioni e  all'art.  14-bis  della\nlegge n.  241/1990  e  successive  modificazioni  ed  integrazioni  e\nindizione  conferenza  di  servizi  decisoria.  (Ordinanza   n.   2).\n(26A05711)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.107860+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "indicatori testuali: decreto legislativo, legge, modifica (+25)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "be8570e5f639fd3d6815",
+      "title": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05700/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:40+00:00",
+      "summary": "Ricognizione sistematica degli Uffici consolari  di  prima  categoria\nattualmente esistenti. (26A05700)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108629+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "c7537c8562a91b093879",
+      "title": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - COMMISSARIO STRAORDINARIO DI GOVERNO PER LA REALIZZAZIONE DEL NUOVO POLICLINICO UMBERTO I - ORDINANZA 12 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05699/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:39+00:00",
+      "summary": "Costituzione,  organizzazione  e  modalita'  di  funzionamento  della\nStruttura di supporto al Commissario straordinario  del  Governo  per\nl'accelerazione e la realizzazione  del  nuovo  Ospedale  Policlinico\nUmberto I di Roma. (Ordinanza n. 1). (26A05699)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.107675+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "a66c3a9e0d2cede0699f",
+      "title": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05689/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:39+00:00",
+      "summary": "Comunicato concernente il ruolo dei dirigenti (26A05689)",
+      "language": "it",
+      "topics": [
+        "trasporti_infrastrutture"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108698+00:00",
+      "analysis_version": 2,
+      "relevance_score": 17,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: trasporti_infrastrutture (+17)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "77172df1f25604130d7b",
+      "title": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 22 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05687/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:38+00:00",
+      "summary": "Accertamento dell'ammontare del capitale nominale rimasto in essere a\nseguito dell'espletamento dell'operazione di riacquisto mediante asta\ncompetitiva di titoli di Stato del 5 ottobre 2026. (26A05687)",
+      "language": "it",
+      "topics": [
+        "fisco",
+        "economia_finanza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.107565+00:00",
+      "analysis_version": 2,
+      "relevance_score": 24,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "120dace67b5fa35653f4",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05688/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:38+00:00",
+      "summary": "Modifica  dell'autorizzazione   all'immissione   in   commercio   del\nmedicinale per uso umano, a base di  complesso  protrombinico  umano,\n«Proplex». (26A05688)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108471+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: modifica (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "2492559d94fe5f91bd1c",
+      "title": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 20 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05686/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:37+00:00",
+      "summary": "Misure del diritto speciale sulla benzina, petrolio, gasolio ed altri\ngeneri, istituito nel territorio extradoganale di Livigno. (26A05686)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.107436+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "a13b3ddc82da5fc8deb0",
+      "title": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05684/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:36+00:00",
+      "summary": "Rilascio di exequatur (26A05684)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108522+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "9a05a48e61d5668f54f3",
+      "title": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05685/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:36+00:00",
+      "summary": "Rilascio di exequatur (26A05685)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108566+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "f450715151a1419e977c",
+      "title": "REGIONE PIEMONTE - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05666/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:35+00:00",
+      "summary": "Dichiarazione di notevole interesse pubblico dei  versanti  collinari\ncoltivati a vigneto a cornice  del  borgo  di  San  Martino  Alfieri.\n(26A05666)",
+      "language": "it",
+      "topics": [
+        "fisco"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108834+00:00",
+      "analysis_version": 2,
+      "relevance_score": 24,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "0c415669450b878e396f",
+      "title": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI - DIPARTIMENTO PER LE POLITICHE IN FAVORE DELLE PERSONE CON DISABILITA' - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05665/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:35+00:00",
+      "summary": "Pubblicazione del decreto 23 luglio 2026, concernente  gli  incentivi\nper il lavoro delle persone con disabilita' (inclusione lavorativa) a\nvalere  sul  Fondo  unico  per   l'inclusione   delle   persone   con\ndisabilita', anno 2026. (26A05665)",
+      "language": "it",
+      "topics": [
+        "fisco",
+        "lavoro"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108774+00:00",
+      "analysis_version": 2,
+      "relevance_score": 24,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "3dce264d9cc1d33dde8c",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05660/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:35+00:00",
+      "summary": "Revoca, su rinuncia, dell'autorizzazione all'immissione in  commercio\ndel medicinale per uso umano «Doxorubicina Liposomiale  Pegilata  Dr.\nReddy's». (26A05660)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108418+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "3cc23bfd7e4d7a1dbfa3",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05652/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:34+00:00",
+      "summary": "Revoca, su rinuncia, dell'autorizzazione all'immissione in  commercio\ndel medicinale per uso umano «Salbutamolo Sandoz». (26A05652)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108320+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "03dafa07a3a03416431d",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05659/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:34+00:00",
+      "summary": "Revoca, su rinuncia, dell'autorizzazione all'immissione in  commercio\ndel medicinale per uso umano «Bortezomib Mylan». (26A05659)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108367+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "9687f55b6614f19b5508",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05650/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:33+00:00",
+      "summary": "Modifica  dell'autorizzazione   all'immissione   in   commercio   del\nmedicinale per uso umano, a base di eribulina, «Eribulina  Glenmark».\n(26A05650)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108212+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: modifica (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "bb50ec81e44aec9d82dc",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05651/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:33+00:00",
+      "summary": "Revoca, su rinuncia, dell'autorizzazione all'immissione in  commercio\ndel medicinale per uso umano «Voriconazolo Sandoz GmbH». (26A05651)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108268+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "72a6d6d9af7955bae546",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05648/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:32+00:00",
+      "summary": "Modifica  dell'autorizzazione   all'immissione   in   commercio   del\nmedicinale per uso umano,  a  base  di  rosuvastatina  ed  ezetimibe,\n«Rovezet». (26A05648)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108101+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: modifica (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "f0e025deaa424a9f8436",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05649/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:32+00:00",
+      "summary": "Modifica  dell'autorizzazione   all'immissione   in   commercio   del\nmedicinale per uso umano,  a  base  di  apixaban,  «Apixaban  Viatris\nPharma». (26A05649)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108159+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: modifica (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "dba5b45a45d5f7f64075",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05647/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-10-31T11:09:31+00:00",
+      "summary": "Modifica  dell'autorizzazione   all'immissione   in   commercio   del\nmedicinale per  uso  umano,  a  base  di  apixaban,  «Apixaban  Sun».\n(26A05647)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-01T13:30:33.108016+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: modifica (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 1
+    },
     {
       "id": "eae0dd650544b06662cc",
       "title": "DECRETO LEGISLATIVO 9 ottobre 2026, n.199",
@@ -662,7 +1141,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.176190+00:00",
+      "collected_at": "2026-11-01T13:30:35.598041+00:00",
       "analysis_version": 2,
       "relevance_score": 36,
       "priority": "media",
@@ -672,8 +1151,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "f46433fafa8df8e70000",
@@ -689,7 +1168,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.175106+00:00",
+      "collected_at": "2026-11-01T13:30:35.597433+00:00",
       "analysis_version": 2,
       "relevance_score": 19,
       "priority": "bassa",
@@ -699,8 +1178,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "680abdad2358c10ec03e",
@@ -714,7 +1193,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.176575+00:00",
+      "collected_at": "2026-11-01T13:30:35.598609+00:00",
       "analysis_version": 2,
       "relevance_score": 7,
       "priority": "bassa",
@@ -723,8 +1202,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "8d0649dad0577a44ac44",
@@ -740,7 +1219,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.175597+00:00",
+      "collected_at": "2026-11-01T13:30:35.598407+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -750,8 +1229,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "e436ce17b6c27f14506c",
@@ -767,7 +1246,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.175459+00:00",
+      "collected_at": "2026-11-01T13:30:35.597683+00:00",
       "analysis_version": 2,
       "relevance_score": 18,
       "priority": "bassa",
@@ -777,8 +1256,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "8cd8ab88f86be87a4486",
@@ -792,7 +1271,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.176016+00:00",
+      "collected_at": "2026-11-01T13:30:35.597876+00:00",
       "analysis_version": 2,
       "relevance_score": 4,
       "priority": "bassa",
@@ -801,8 +1280,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "301e89a6edf083f51364",
@@ -818,7 +1297,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.177279+00:00",
+      "collected_at": "2026-11-01T13:30:35.598937+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -828,8 +1307,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "8120b29cde9f9897770f",
@@ -845,7 +1324,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.176325+00:00",
+      "collected_at": "2026-11-01T13:30:35.598239+00:00",
       "analysis_version": 2,
       "relevance_score": 36,
       "priority": "media",
@@ -855,8 +1334,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "5901722b6473c8490c76",
@@ -872,7 +1351,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.176836+00:00",
+      "collected_at": "2026-11-01T13:30:35.598503+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -882,8 +1361,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "f436e0ac9cd9dcceb95c",
@@ -897,7 +1376,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.175849+00:00",
+      "collected_at": "2026-11-01T13:30:35.598120+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -906,8 +1385,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "09f3a59e7a55d1df907e",
@@ -923,7 +1402,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.175355+00:00",
+      "collected_at": "2026-11-01T13:30:35.597617+00:00",
       "analysis_version": 2,
       "relevance_score": 25,
       "priority": "bassa",
@@ -933,8 +1412,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "3bb365ee4889eb7a8366",
@@ -948,7 +1427,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.174882+00:00",
+      "collected_at": "2026-11-01T13:30:35.597764+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -957,8 +1436,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "0683ae2bdb7b39beb2f9",
@@ -974,7 +1453,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.177144+00:00",
+      "collected_at": "2026-11-01T13:30:35.598848+00:00",
       "analysis_version": 2,
       "relevance_score": 32,
       "priority": "media",
@@ -984,8 +1463,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "4f675cf5ae4f6a380811",
@@ -1002,7 +1481,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.175228+00:00",
+      "collected_at": "2026-11-01T13:30:35.597528+00:00",
       "analysis_version": 2,
       "relevance_score": 37,
       "priority": "media",
@@ -1012,8 +1491,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "6fc9c566bbade96ced29",
@@ -1029,7 +1508,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.175739+00:00",
+      "collected_at": "2026-11-01T13:30:35.598312+00:00",
       "analysis_version": 2,
       "relevance_score": 37,
       "priority": "media",
@@ -1039,8 +1518,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "645a3f02397573718728",
@@ -1056,7 +1535,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.176953+00:00",
+      "collected_at": "2026-11-01T13:30:35.598737+00:00",
       "analysis_version": 2,
       "relevance_score": 19,
       "priority": "bassa",
@@ -1066,8 +1545,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "2092580471552351bd8b",
@@ -1081,15 +1560,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.177026+00:00",
+      "collected_at": "2026-11-01T13:30:35.598778+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "51b561f69bf6446237fb",
@@ -1103,15 +1582,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.176405+00:00",
+      "collected_at": "2026-11-01T13:30:35.597954+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "1c9c3bb87c0f3049e6f8",
@@ -1127,7 +1606,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.179139+00:00",
+      "collected_at": "2026-11-01T13:30:35.600241+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -1137,8 +1616,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "811bcc299dc3bf67a922",
@@ -1154,7 +1633,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.180102+00:00",
+      "collected_at": "2026-11-01T13:30:35.600311+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -1164,8 +1643,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "40ed15014c5cdc17e55d",
@@ -1181,7 +1660,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.179004+00:00",
+      "collected_at": "2026-11-01T13:30:35.600162+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -1191,8 +1670,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "e7dd97ebc55fc7d29775",
@@ -1206,7 +1685,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.177688+00:00",
+      "collected_at": "2026-11-01T13:30:35.599406+00:00",
       "analysis_version": 2,
       "relevance_score": 9,
       "priority": "bassa",
@@ -1215,8 +1694,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "426534f0082bdf011eba",
@@ -1230,7 +1709,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.177417+00:00",
+      "collected_at": "2026-11-01T13:30:35.599028+00:00",
       "analysis_version": 2,
       "relevance_score": 28,
       "priority": "bassa",
@@ -1239,8 +1718,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "a733334ec6fa84e8c306",
@@ -1256,7 +1735,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.180359+00:00",
+      "collected_at": "2026-11-01T13:30:35.600802+00:00",
       "analysis_version": 2,
       "relevance_score": 31,
       "priority": "media",
@@ -1266,8 +1745,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "f326091ed011d54ede35",
@@ -1281,7 +1760,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.179552+00:00",
+      "collected_at": "2026-11-01T13:30:35.600383+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -1290,8 +1769,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "669c111e24ef6542988e",
@@ -1305,7 +1784,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.179735+00:00",
+      "collected_at": "2026-11-01T13:30:35.600619+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -1314,8 +1793,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "8dd532a08b0ca8f4f764",
@@ -1331,7 +1810,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.180251+00:00",
+      "collected_at": "2026-11-01T13:30:35.600742+00:00",
       "analysis_version": 2,
       "relevance_score": 35,
       "priority": "media",
@@ -1341,8 +1820,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "96df75fc8173e87bbaa2",
@@ -1356,7 +1835,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.179907+00:00",
+      "collected_at": "2026-11-01T13:30:35.600506+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -1365,8 +1844,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "38b072312df8c58fa5ff",
@@ -1382,7 +1861,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.177959+00:00",
+      "collected_at": "2026-11-01T13:30:35.599167+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -1392,8 +1871,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "042f2a16e666091c5185",
@@ -1407,7 +1886,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.178451+00:00",
+      "collected_at": "2026-11-01T13:30:35.599656+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -1416,8 +1895,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "d3fd780b5d263d4a97b8",
@@ -1433,7 +1912,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.179429+00:00",
+      "collected_at": "2026-11-01T13:30:35.599973+00:00",
       "analysis_version": 2,
       "relevance_score": 31,
       "priority": "media",
@@ -1443,8 +1922,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "cd7f259cecea4840f4da",
@@ -1458,7 +1937,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.179249+00:00",
+      "collected_at": "2026-11-01T13:30:35.600042+00:00",
       "analysis_version": 2,
       "relevance_score": 16,
       "priority": "bassa",
@@ -1467,8 +1946,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "fffe07a30e0eca45cc5a",
@@ -1482,7 +1961,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.178094+00:00",
+      "collected_at": "2026-11-01T13:30:35.599250+00:00",
       "analysis_version": 2,
       "relevance_score": 16,
       "priority": "bassa",
@@ -1491,8 +1970,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "7d93e243cbf6e62ac75c",
@@ -1506,7 +1985,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.178645+00:00",
+      "collected_at": "2026-11-01T13:30:35.599770+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -1515,8 +1994,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "40098b57374c21963e38",
@@ -1530,15 +2009,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.178778+00:00",
+      "collected_at": "2026-11-01T13:30:35.599882+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "0287cd320281ba3d7154",
@@ -1552,15 +2031,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.178317+00:00",
+      "collected_at": "2026-11-01T13:30:35.599570+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "a8224788ad0f5a73438f",
@@ -1574,15 +2053,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.178857+00:00",
+      "collected_at": "2026-11-01T13:30:35.599842+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "d64cb4f07b3dfebdcde8",
@@ -1596,15 +2075,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.178236+00:00",
+      "collected_at": "2026-11-01T13:30:35.599528+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "3f181c1b6fe82b7d6f4a",
@@ -1620,7 +2099,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.181121+00:00",
+      "collected_at": "2026-11-01T13:30:35.601265+00:00",
       "analysis_version": 2,
       "relevance_score": 26,
       "priority": "bassa",
@@ -1630,8 +2109,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "9cd5a74a843231074621",
@@ -1647,7 +2126,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.181961+00:00",
+      "collected_at": "2026-11-01T13:30:35.601743+00:00",
       "analysis_version": 2,
       "relevance_score": 31,
       "priority": "media",
@@ -1657,8 +2136,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "17d7906c07a014be89f7",
@@ -1672,7 +2151,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.181246+00:00",
+      "collected_at": "2026-11-01T13:30:35.601348+00:00",
       "analysis_version": 2,
       "relevance_score": 8,
       "priority": "bassa",
@@ -1681,8 +2160,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "a0c922fc21cf1caee690",
@@ -1698,7 +2177,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.180811+00:00",
+      "collected_at": "2026-11-01T13:30:35.601069+00:00",
       "analysis_version": 2,
       "relevance_score": 30,
       "priority": "media",
@@ -1708,8 +2187,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "226a8dcaa2bfc7028596",
@@ -1725,7 +2204,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182169+00:00",
+      "collected_at": "2026-11-01T13:30:35.601861+00:00",
       "analysis_version": 2,
       "relevance_score": 30,
       "priority": "media",
@@ -1735,8 +2214,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "8f46785f6408a0edbc75",
@@ -1752,7 +2231,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.181533+00:00",
+      "collected_at": "2026-11-01T13:30:35.601523+00:00",
       "analysis_version": 2,
       "relevance_score": 32,
       "priority": "media",
@@ -1762,8 +2241,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "182260572d621877fa19",
@@ -1777,7 +2256,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.180572+00:00",
+      "collected_at": "2026-11-01T13:30:35.600931+00:00",
       "analysis_version": 2,
       "relevance_score": 20,
       "priority": "bassa",
@@ -1786,8 +2265,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "52a72b016b5ea2f81b72",
@@ -1801,7 +2280,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.180947+00:00",
+      "collected_at": "2026-11-01T13:30:35.601154+00:00",
       "analysis_version": 2,
       "relevance_score": 16,
       "priority": "bassa",
@@ -1810,8 +2289,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "8e2182ab9e346e070c07",
@@ -1825,7 +2304,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.181644+00:00",
+      "collected_at": "2026-11-01T13:30:35.601578+00:00",
       "analysis_version": 2,
       "relevance_score": 9,
       "priority": "bassa",
@@ -1834,8 +2313,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "6485d03244662a1da0a5",
@@ -1849,15 +2328,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.181383+00:00",
+      "collected_at": "2026-11-01T13:30:35.601428+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "f4fdb369b91a1f6ffcda",
@@ -1871,15 +2350,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182036+00:00",
+      "collected_at": "2026-11-01T13:30:35.601778+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "a1257f33ef5466a4564a",
@@ -1893,15 +2372,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.181837+00:00",
+      "collected_at": "2026-11-01T13:30:35.601629+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "e913a3f660d805f584dd",
@@ -1915,15 +2394,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.180431+00:00",
+      "collected_at": "2026-11-01T13:30:35.600842+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "a48336e6c7afe424d6db",
@@ -1937,15 +2416,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.181756+00:00",
+      "collected_at": "2026-11-01T13:30:35.601668+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "28bf294b25803f966957",
@@ -1961,7 +2440,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182947+00:00",
+      "collected_at": "2026-11-01T13:30:35.602352+00:00",
       "analysis_version": 2,
       "relevance_score": 39,
       "priority": "media",
@@ -1971,8 +2450,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "7408daa01702eeca5993",
@@ -1988,7 +2467,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182273+00:00",
+      "collected_at": "2026-11-01T13:30:35.602126+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -1998,8 +2477,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "fd7a7689eeec16c23772",
@@ -2015,7 +2494,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182695+00:00",
+      "collected_at": "2026-11-01T13:30:35.602269+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2025,8 +2504,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "664d15195e0104c10445",
@@ -2040,7 +2519,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183917+00:00",
+      "collected_at": "2026-11-01T13:30:35.602918+00:00",
       "analysis_version": 2,
       "relevance_score": 9,
       "priority": "bassa",
@@ -2049,8 +2528,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "bd8dce97ba0114f96c9a",
@@ -2066,7 +2545,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.184040+00:00",
+      "collected_at": "2026-11-01T13:30:35.602988+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2076,8 +2555,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "fc7e83ae7d505edd7d9a",
@@ -2093,7 +2572,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183598+00:00",
+      "collected_at": "2026-11-01T13:30:35.602862+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2103,8 +2582,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "9bef2f99e2d5e2f13a45",
@@ -2120,7 +2599,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183389+00:00",
+      "collected_at": "2026-11-01T13:30:35.602679+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2130,8 +2609,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "c60a0c886fd9543ad2e9",
@@ -2147,7 +2626,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182374+00:00",
+      "collected_at": "2026-11-01T13:30:35.601998+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2157,8 +2636,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "e31c3201af944949023e",
@@ -2174,7 +2653,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183191+00:00",
+      "collected_at": "2026-11-01T13:30:35.602509+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2184,8 +2663,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "77c0ce7b4240c1a41de5",
@@ -2201,7 +2680,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183075+00:00",
+      "collected_at": "2026-11-01T13:30:35.602439+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2211,8 +2690,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "ef6bc32dfe6d72ab112e",
@@ -2228,7 +2707,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183723+00:00",
+      "collected_at": "2026-11-01T13:30:35.602728+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2238,8 +2717,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "baa2a27e9dff5aaf0fd9",
@@ -2255,7 +2734,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183297+00:00",
+      "collected_at": "2026-11-01T13:30:35.602578+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2265,8 +2744,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "01dcec37159a7e067174",
@@ -2282,7 +2761,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182472+00:00",
+      "collected_at": "2026-11-01T13:30:35.602066+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2292,8 +2771,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "b4b5022314337fc25a68",
@@ -2309,7 +2788,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183827+00:00",
+      "collected_at": "2026-11-01T13:30:35.602785+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2319,8 +2798,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "248c4ecf1ea7f886e5c1",
@@ -2336,7 +2815,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182575+00:00",
+      "collected_at": "2026-11-01T13:30:35.601934+00:00",
       "analysis_version": 2,
       "relevance_score": 26,
       "priority": "bassa",
@@ -2346,8 +2825,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "2be1a3bd68ba3f957181",
@@ -2363,7 +2842,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.183469+00:00",
+      "collected_at": "2026-11-01T13:30:35.602626+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -2373,8 +2852,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "e199c98d635bad2427c7",
@@ -2390,7 +2869,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.182821+00:00",
+      "collected_at": "2026-11-01T13:30:35.602208+00:00",
       "analysis_version": 2,
       "relevance_score": 26,
       "priority": "bassa",
@@ -2400,8 +2879,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "a8692228d577d44f251b",
@@ -2415,7 +2894,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.184156+00:00",
+      "collected_at": "2026-11-01T13:30:35.603056+00:00",
       "analysis_version": 2,
       "relevance_score": 4,
       "priority": "bassa",
@@ -2424,8 +2903,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "4ade3a641c3fa7c9d766",
@@ -2441,7 +2920,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.184337+00:00",
+      "collected_at": "2026-11-01T13:30:35.603169+00:00",
       "analysis_version": 2,
       "relevance_score": 21,
       "priority": "bassa",
@@ -2451,8 +2930,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "8e5e636c25a5e8873197",
@@ -2468,7 +2947,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.184733+00:00",
+      "collected_at": "2026-11-01T13:30:35.603417+00:00",
       "analysis_version": 2,
       "relevance_score": 39,
       "priority": "media",
@@ -2478,8 +2957,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "bb528a31949f627f9cd5",
@@ -2495,7 +2974,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185025+00:00",
+      "collected_at": "2026-11-01T13:30:35.603587+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -2505,8 +2984,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "6db79aa80f64c2f7bd1d",
@@ -2522,7 +3001,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.184905+00:00",
+      "collected_at": "2026-11-01T13:30:35.603519+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -2532,8 +3011,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "c9c875cb47601cdc3562",
@@ -2549,7 +3028,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185258+00:00",
+      "collected_at": "2026-11-01T13:30:35.603664+00:00",
       "analysis_version": 2,
       "relevance_score": 31,
       "priority": "media",
@@ -2559,8 +3038,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "39bafd30f37c8dcec2ca",
@@ -2574,7 +3053,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.184448+00:00",
+      "collected_at": "2026-11-01T13:30:35.603239+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -2583,8 +3062,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "79c122f34775a07ad496",
@@ -2600,7 +3079,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185137+00:00",
+      "collected_at": "2026-11-01T13:30:35.603734+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -2609,8 +3088,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "3732926cb3a710c9ad36",
@@ -3048,7 +3527,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.186167+00:00",
+      "collected_at": "2026-11-01T13:30:35.604154+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -3058,8 +3537,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "1f827b8912d99189296c",
@@ -3073,7 +3552,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.187051+00:00",
+      "collected_at": "2026-11-01T13:30:35.604726+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -3082,8 +3561,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "6ac12f2ccf7843c026f5",
@@ -3099,7 +3578,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.186256+00:00",
+      "collected_at": "2026-11-01T13:30:35.604202+00:00",
       "analysis_version": 2,
       "relevance_score": 18,
       "priority": "bassa",
@@ -3108,8 +3587,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "30c19100cd0c1a0c67f5",
@@ -3123,7 +3602,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.187380+00:00",
+      "collected_at": "2026-11-01T13:30:35.604889+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -3132,8 +3611,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "ddd669da6174a05d0281",
@@ -3147,7 +3626,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.187532+00:00",
+      "collected_at": "2026-11-01T13:30:35.604977+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -3156,8 +3635,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "030c7b00695a059e1234",
@@ -3171,7 +3650,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.187698+00:00",
+      "collected_at": "2026-11-01T13:30:35.605078+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -3180,8 +3659,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "03ec3c4909e8d1310c0e",
@@ -3197,7 +3676,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.186701+00:00",
+      "collected_at": "2026-11-01T13:30:35.604659+00:00",
       "analysis_version": 2,
       "relevance_score": 34,
       "priority": "media",
@@ -3207,8 +3686,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "2de6cdfeabc84f10a7e8",
@@ -3224,7 +3703,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185916+00:00",
+      "collected_at": "2026-11-01T13:30:35.604096+00:00",
       "analysis_version": 2,
       "relevance_score": 29,
       "priority": "bassa",
@@ -3234,8 +3713,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "2648869378484a176ee9",
@@ -3249,7 +3728,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185742+00:00",
+      "collected_at": "2026-11-01T13:30:35.603884+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -3258,8 +3737,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "01958051bba9bc055d6e",
@@ -3275,7 +3754,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185597+00:00",
+      "collected_at": "2026-11-01T13:30:35.604013+00:00",
       "analysis_version": 2,
       "relevance_score": 37,
       "priority": "media",
@@ -3285,8 +3764,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "06e590eda5d45ea1a335",
@@ -3300,15 +3779,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185422+00:00",
+      "collected_at": "2026-11-01T13:30:35.603809+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "b85c5ff74e8f29532862",
@@ -3322,15 +3801,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185994+00:00",
+      "collected_at": "2026-11-01T13:30:35.604237+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "8105ce6038426d074adf",
@@ -3344,15 +3823,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.185336+00:00",
+      "collected_at": "2026-11-01T13:30:35.603771+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "caae84f704f24182a7ec",
@@ -3366,15 +3845,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.186322+00:00",
+      "collected_at": "2026-11-01T13:30:35.604570+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "337727c3de3757185e71",
@@ -3388,15 +3867,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.187255+00:00",
+      "collected_at": "2026-11-01T13:30:35.604820+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "e3150d652110f00074c5",
@@ -3410,15 +3889,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.186528+00:00",
+      "collected_at": "2026-11-01T13:30:35.604385+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "7d505844b7b92b7f9c4e",
@@ -3432,15 +3911,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.187174+00:00",
+      "collected_at": "2026-11-01T13:30:35.604783+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "12e8e339ad48e799db7a",
@@ -3456,7 +3935,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.186457+00:00",
+      "collected_at": "2026-11-01T13:30:35.604344+00:00",
       "analysis_version": 2,
       "relevance_score": 19,
       "priority": "bassa",
@@ -3465,8 +3944,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "656753d47e587d66eb53",
@@ -3480,15 +3959,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.186864+00:00",
+      "collected_at": "2026-11-01T13:30:35.604486+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "79be551203fd500ce3fd",
@@ -3505,7 +3984,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.482115+00:00",
+      "collected_at": "2026-11-01T13:30:35.160158+00:00",
       "analysis_version": 2,
       "relevance_score": 22,
       "priority": "bassa",
@@ -3514,8 +3993,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "be7ef2a9df2189198eee",
@@ -3533,7 +4012,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.481956+00:00",
+      "collected_at": "2026-11-01T13:30:35.160034+00:00",
       "analysis_version": 2,
       "relevance_score": 24,
       "priority": "bassa",
@@ -3542,8 +4021,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "705397f7c04f0f5be5e5",
@@ -3559,7 +4038,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.481796+00:00",
+      "collected_at": "2026-11-01T13:30:35.159924+00:00",
       "analysis_version": 2,
       "relevance_score": 31,
       "priority": "media",
@@ -3569,8 +4048,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "1a9b3ea07e305f95aa54",
@@ -3586,7 +4065,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.481566+00:00",
+      "collected_at": "2026-11-01T13:30:35.159794+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3595,8 +4074,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "8768657cf30e0510f68c",
@@ -3820,7 +4299,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.187857+00:00",
+      "collected_at": "2026-11-01T13:30:35.605291+00:00",
       "analysis_version": 2,
       "relevance_score": 8,
       "priority": "bassa",
@@ -3829,8 +4308,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "61df5624dd1a7337758f",
@@ -3868,15 +4347,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.188073+00:00",
+      "collected_at": "2026-11-01T13:30:35.605214+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "3c05096a5403270fa30f",
@@ -3912,15 +4391,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.188146+00:00",
+      "collected_at": "2026-11-01T13:30:35.605141+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "a4e60ff682a529d6729b",
@@ -3934,15 +4413,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:27.187983+00:00",
+      "collected_at": "2026-11-01T13:30:35.605179+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-24T15:02:20.736797+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 2
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 3
     },
     {
       "id": "ec42c417fd60c3a6935a",
@@ -8439,7 +8918,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.482446+00:00",
+      "collected_at": "2026-11-01T13:30:35.160396+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -8449,8 +8928,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "95cab8a3173f62cc1b39",
@@ -8583,7 +9062,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.482283+00:00",
+      "collected_at": "2026-11-01T13:30:35.160276+00:00",
       "analysis_version": 2,
       "relevance_score": 39,
       "priority": "media",
@@ -8593,8 +9072,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "654433fd161306a85b2b",
@@ -8712,7 +9191,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.483245+00:00",
+      "collected_at": "2026-11-01T13:30:35.160934+00:00",
       "analysis_version": 2,
       "relevance_score": 8,
       "priority": "bassa",
@@ -8721,8 +9200,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "fe098f56f0a0dba75ac3",
@@ -8738,7 +9217,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.482603+00:00",
+      "collected_at": "2026-11-01T13:30:35.160509+00:00",
       "analysis_version": 2,
       "relevance_score": 24,
       "priority": "bassa",
@@ -8747,8 +9226,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "56a754a50b8fcdfc08c4",
@@ -8867,15 +9346,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.482974+00:00",
+      "collected_at": "2026-11-01T13:30:35.160744+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "9152e9f4e10b85eab964",
@@ -8919,7 +9398,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.482809+00:00",
+      "collected_at": "2026-11-01T13:30:35.160626+00:00",
       "analysis_version": 2,
       "relevance_score": 22,
       "priority": "bassa",
@@ -8928,8 +9407,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "77746e5842648fb5019d",
@@ -9080,15 +9559,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-10-31T09:01:26.483515+00:00",
+      "collected_at": "2026-11-01T13:30:35.161134+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-10-31T09:01:27.451791+00:00",
-      "seen_count": 1
+      "last_seen_at": "2026-11-01T13:30:35.963643+00:00",
+      "seen_count": 2
     },
     {
       "id": "67eccd9e2a9fdb86e74c",
