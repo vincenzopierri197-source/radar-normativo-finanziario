@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { handleCommand, renderMarkets, renderHistoricalMarkets, publishedDay, parseEconomicRss } from "./src/index.js";
+import { handleCommand, renderMarkets, renderHistoricalMarkets, publishedDay, parseEconomicRss, ghJson, archiveItems, sendMessage } from "./src/index.js";
 
 const today = new Date().toISOString();
 const archive = { updated_at: today, items: [
@@ -40,7 +40,7 @@ test("cerca, ultime, oggi, ieri, stato", async () => {
   assert.match(await handleCommand("/oggi", 1, e), /decreto fiscale/);
   assert.doesNotMatch(await handleCommand("/ieri", 1, e), /decreto fiscale/);
   assert.match(await handleCommand("/ultimi7giorni", 1, e), /decreto fiscale/);
-  assert.match(await handleCommand("/stato", 1, e), /Elementi in archivio: 2/);
+  assert.match(await handleCommand("/stato", 1, e), /Archivio: OK · 2 elementi/);
 });
 
 test("filtri", async () => {
@@ -172,4 +172,39 @@ test("comando economia usa notizie recenti e Groq", async () => {
   assert.match(answer, /Google News RSS/);
   assert.match(JSON.stringify(requestBody), /Reuters: mercati globali in rialzo/);
   assert.match(JSON.stringify(requestBody), /news.google.com/);
+});
+
+test("GitHub data errors are explicit and never become empty archives", async () => {
+  await assert.rejects(
+    () => ghJson({ GITHUB_REPO: "o/r", GITHUB_BRANCH: "main" }, "data/archive.json", async () => new Response("missing", { status: 404 })),
+    /HTTP 404/
+  );
+  await assert.rejects(
+    () => archiveItems({ GITHUB_REPO: "o/r" }, async () => new Response(JSON.stringify({ updated_at: "today" }), { status: 200 })),
+    /manca la lista items/
+  );
+  const status = await handleCommand("/stato", 1, env(), {
+    fetchGithub: async () => new Response("unavailable", { status: 503 })
+  });
+  assert.match(status, /Archivio: ERRORE · GitHub ha restituito HTTP 503/);
+  assert.match(status, /Fonti configurate: ERRORE/);
+});
+
+test("Telegram sendMessage verifies HTTP status and Telegram ok flag", async () => {
+  const e = { TELEGRAM_BOT_TOKEN: "test-token" };
+  const success = await sendMessage(e, "123", "test", async (url, options) => {
+    assert.match(String(url), /api\.telegram\.org/);
+    const body = JSON.parse(options.body);
+    assert.equal(body.chat_id, "123");
+    return new Response(JSON.stringify({ ok: true, result: { message_id: 7 } }), { status: 200 });
+  });
+  assert.equal(success.message_id, 7);
+  await assert.rejects(
+    () => sendMessage(e, "123", "test", async () => new Response(JSON.stringify({ ok: false, description: "chat not found" }), { status: 200 })),
+    /Telegram ha rifiutato/
+  );
+  await assert.rejects(
+    () => sendMessage(e, "123", "test", async () => new Response(JSON.stringify({ ok: false }), { status: 500 })),
+    /HTTP 500/
+  );
 });
