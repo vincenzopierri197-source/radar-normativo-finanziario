@@ -44,7 +44,8 @@ RULES: dict[str, tuple[str, ...]] = {
     "ambiente_energia": (
         "ambiente", "ambientale", "energia", "energetico", "emissioni", "rifiuti",
         "clima", "environment", "environmental", "energy", "renewable", "emissions",
-        "waste", "climate", "electricity", "gas supply",
+        "waste", "climate", "electricity", "gas supply", "tutela paesaggistica",
+        "paesaggio rurale", "paesaggistico", "paesaggistica",
     ),
     "salute_farmaci": (
         "salute", "sanità", "sanitario", "farmaco", "farmaci", "medicinale", "medicinali",
@@ -60,6 +61,7 @@ RULES: dict[str, tuple[str, ...]] = {
         "avian influenza", "animal health", "animals and goods intended for human consumption",
         "school fruit and vegetables", "school milk", "vine and wine",
         "international organisation of vine and wine",
+        "vigneto", "vigneti", "viticolo", "viticoli", "viticoltura", "vineyard", "vineyards",
         "protected geographical indication", "lupin", "nitrate and nitrite",
         "poultry", "fresh meat", "sheep pox", "goat pox", "seed potatoes",
         "fishing effort", "maximum residue levels", "pesticide", "pesticides",
