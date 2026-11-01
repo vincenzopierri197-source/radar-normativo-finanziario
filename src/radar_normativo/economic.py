@@ -75,7 +75,7 @@ def _headline(snapshot: dict[str, Any]) -> list[str]:
 
 def _groq_reading(snapshot: dict[str, Any], *, api_key: str | None = None, model: str | None = None, requester: Callable[..., Any] | None = None) -> str:
     """Lettura Groq prudente basata esclusivamente sui dati disponibili."""
-    key = api_key or os.environ.get("GROQ_API_KEY")
+    key = api_key if api_key is not None else os.environ.get("GROQ_API_KEY")
     if not key:
         return "Non attiva: chiave GROQ_API_KEY non configurata."
     metrics = [
