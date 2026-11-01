@@ -90,3 +90,18 @@ def test_economic_report_skips_groq_without_valid_market_data():
     )
     assert calls == []
     assert "Non generata: dati numerici insufficienti." in report
+
+
+
+def test_economic_report_falls_back_if_groq_is_unavailable():
+    def unavailable(*args, **kwargs):
+        raise OSError("connection refused")
+
+    report = render_economic_report(
+        "analisi",
+        sample_rows(),
+        groq_api_key="must-not-leak",
+        groq_requester=unavailable,
+    )
+    assert "Non disponibile: errore di rete o risposta Groq non valida." in report
+    assert "must-not-leak" not in report
