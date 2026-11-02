@@ -9,6 +9,7 @@ __pycache__/
 !.env.example
 data/*
 !data/archive.json
+!data/source_health.json
 dist/
 build/
 *.egg-info/
