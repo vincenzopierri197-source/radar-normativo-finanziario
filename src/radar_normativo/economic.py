@@ -6,7 +6,11 @@ di scenario senza serie storiche e fonti macroeconomiche adeguate.
 from __future__ import annotations
 
 from datetime import datetime
-from typing import Any
+import json
+import os
+import urllib.error
+import urllib.request
+from typing import Any, Callable
 from zoneinfo import ZoneInfo
 
 from radar_normativo.finance import collect_market_data
@@ -69,8 +73,54 @@ def _headline(snapshot: dict[str, Any]) -> list[str]:
     return lines
 
 
-def render_economic_report(mode: str, rows: list[dict[str, Any]] | None = None) -> str:
-    """Produce un rapporto motivato per i comandi Telegram economici."""
+def _groq_reading(snapshot: dict[str, Any], *, api_key: str | None = None, model: str | None = None, requester: Callable[..., Any] | None = None) -> str:
+    """Lettura Groq prudente basata esclusivamente sui dati disponibili."""
+    key = api_key if api_key is not None else os.environ.get("GROQ_API_KEY")
+    if not key:
+        return "Non attiva: chiave GROQ_API_KEY non configurata."
+    metrics = [
+        {"name": row.get("name"), "symbol": row.get("symbol"), "region": row.get("region"),
+         "change_pct": row.get("change_pct"), "value": row.get("value"), "currency": row.get("currency")}
+        for row in snapshot["valid"]
+    ]
+    if not metrics:
+        return "Non generata: dati numerici insufficienti."
+    payload = {
+        "model": model or os.environ.get("GROQ_MODEL", "openai/gpt-oss-20b"),
+        "temperature": 0.2, "max_tokens": 350,
+        "messages": [
+            {"role": "system", "content": "Sei un analista quantitativo prudente. Analizza esclusivamente i dati numerici forniti. Scrivi in italiano 3-5 punti brevi: quadro osservato, ampiezza di rialzi/ribassi, differenze regionali e rischi/limiti. Non inventare cause, notizie, dati macro, prezzi o previsioni. Distingui osservazioni e interpretazioni. Il campione di ticker non rappresenta l'intera economia. Nessun consiglio di investimento o probabilità. Un dato giornaliero non dimostra un trend strutturale."},
+            {"role": "user", "content": "Valuta questi dati Yahoo Finance, potenzialmente ritardati. I valori numerici sono vincolanti e non vanno modificati: " + json.dumps(metrics, ensure_ascii=False)}
+        ]
+    }
+    request = urllib.request.Request(
+        "https://api.groq.com/openai/v1/chat/completions",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
+        method="POST",
+    )
+    send = requester or urllib.request.urlopen
+    try:
+        with send(request, timeout=20) as response:
+            status = getattr(response, "status", 200)
+            if status < 200 or status >= 300:
+                return "Non disponibile: Groq HTTP " + str(status) + "."
+            result = json.loads(response.read().decode("utf-8"))
+        answer = result["choices"][0]["message"]["content"].strip()
+        return answer[:1800] if answer else "Non disponibile: risposta Groq vuota."
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError, KeyError, IndexError, TypeError):
+        return "Non disponibile: errore di rete o risposta Groq non valida."
+
+
+def render_economic_report(
+    mode: str,
+    rows: list[dict[str, Any]] | None = None,
+    *,
+    groq_api_key: str | None = None,
+    groq_model: str | None = None,
+    groq_requester: Callable[..., Any] | None = None,
+) -> str:
+    """Produce un rapporto motivato con lettura Groq opzionale basata sui dati."""
     data = collect_market_data() if rows is None else rows
     snap = _snapshot(data)
     now = datetime.now(ROME).strftime("%d/%m/%Y %H:%M")
@@ -135,6 +185,12 @@ def render_economic_report(mode: str, rows: list[dict[str, Any]] | None = None) 
 
     if mode not in {"economia", "stime", "andamento", "rischi", "analisi"}:
         return "Comando economico non riconosciuto. Usa /aiuto."
+    if mode in {"economia", "stime", "analisi"}:
+        lines.extend([
+            "",
+            "🧠 LETTURA IA GROQ",
+            _groq_reading(snap, api_key=groq_api_key, model=groq_model, requester=groq_requester),
+        ])
     lines.extend([
         "",
         "⚠️ LIMITI E FONTI",

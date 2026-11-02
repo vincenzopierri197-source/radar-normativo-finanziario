@@ -3,8 +3,8 @@ name: Radar finanziario indipendente
 on:
   workflow_dispatch:
   schedule:
-    # Retry ogni 5 minuti; il marker impedisce invii doppi.
-    - cron: "23 6-12 * * *"
+    # Primo tentativo alle 08:00 italiane, poi retry orario fino alle 12:00.
+    - cron: "0 6-12 * * *"
 
 permissions:
   contents: write
@@ -35,6 +35,12 @@ jobs:
             echo "Radar finanziario già eseguito oggi ($today)."
             exit 0
           fi
+          local_hour="$(TZ=Europe/Rome date +%H)"
+          if (( 10#$local_hour < 8 || 10#$local_hour > 12 )); then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Fuori dalla finestra giornaliera (08:00-12:00 Europe/Rome)."
+            exit 0
+          fi
           echo "run=true" >> "$GITHUB_OUTPUT"
 
       - name: Set up Python
@@ -52,6 +58,8 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: openai/gpt-oss-20b
         shell: bash
         run: |
           set -euo pipefail
