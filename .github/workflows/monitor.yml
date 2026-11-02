@@ -1,0 +1,30 @@
+name: Monitoraggio report giornalieri
+
+on:
+  # GitHub applica le pianificazioni solo quando il workflow è presente su main.
+  schedule:
+    - cron: "15 13 * * *"
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: monitor-radar-reports
+  cancel-in-progress: false
+
+jobs:
+  check-daily-reports:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Check scheduled report runs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/monitor_workflows.py

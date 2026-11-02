@@ -127,10 +127,25 @@ def test_help_lists_official_normative_and_financial_commands(tmp_path):
     for command in (
         "/start", "/aiuto", "/ultime", "/oggi", "/ieri", "/ultimi7giorni",
         "/cerca", "/fonti", "/filtri", "/stato", "/mercati", "/finanza",
-        "/finanzaoggi", "/finanzieri", "/finanza7giorni",
+        "/economia", "/finanzaoggi", "/finanzieri", "/finanza7giorni",
     ):
         assert command in help_text
-    assert "/economia" not in help_text
+
+
+def test_economia_command_returns_market_based_economic_report(tmp_path, monkeypatch):
+    from radar_normativo import bot
+
+    archive, sources, state, latest = _fixtures(tmp_path)
+    calls = []
+    monkeypatch.setattr(bot, "render_economic_report", lambda mode: calls.append(mode) or "Rapporto economico")
+
+    result = handle_command(
+        "/economia", 123, archive_path=archive, sources_path=sources,
+        state_path=state, latest_path=latest,
+    )
+
+    assert result == "Rapporto economico"
+    assert calls == ["economia"]
 
 
 

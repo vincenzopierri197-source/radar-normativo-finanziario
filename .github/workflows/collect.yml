@@ -81,6 +81,17 @@ jobs:
           if failed: raise SystemExit(f"{len(failed)} fonti obbligatorie non raggiungibili; dettagli sopra")
           PY
 
+      - name: Save source health for /stato
+        if: steps.window.outputs.run == 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          scan=json.loads(Path("data/latest.json").read_text())
+          health={"generated_at":scan.get("generated_at"),"source_results":scan.get("source_results",[])}
+          Path("data/source_health.json").write_text(json.dumps(health,ensure_ascii=False,indent=2)+"\n")
+          PY
+
       - name: Update archive
         if: steps.window.outputs.run == 'true'
         run: python -m radar_normativo archive --latest data/latest.json --archive data/archive.json --new-items data/new_items.json
@@ -91,7 +102,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/archive.json
+          git add data/archive.json data/source_health.json
           if ! git diff --cached --quiet; then
             git commit -m "data: update regulatory archive"
             for attempt in 1 2 3 4 5; do

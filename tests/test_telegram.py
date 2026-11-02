@@ -2,7 +2,51 @@ import json
 
 import pytest
 
-from radar_normativo.telegram import send_new_items
+from radar_normativo.telegram import _send_message, send_new_items
+
+
+def test_telegram_429_retries_after_server_delay(monkeypatch):
+    from io import BytesIO
+    from radar_normativo import telegram
+
+    class Response(BytesIO):
+        def __enter__(self): return self
+        def __exit__(self, *args): self.close()
+
+    responses = iter([
+        Response(b'{"ok":false,"error_code":429,"parameters":{"retry_after":3}}'),
+        Response(b'{"ok":true,"result":{"message_id":1}}'),
+    ])
+    calls, delays = [], []
+    monkeypatch.setattr(telegram.urllib.request, "urlopen", lambda *args, **kwargs: calls.append(1) or next(responses))
+    monkeypatch.setattr(telegram.time, "sleep", delays.append)
+
+    _send_message("test-token", "123", "test message")
+
+    assert len(calls) == 2
+    assert delays == [3]
+
+
+def test_telegram_429_retry_is_bounded(monkeypatch):
+    from io import BytesIO
+    from radar_normativo import telegram
+
+    class Response(BytesIO):
+        def __enter__(self): return self
+        def __exit__(self, *args): self.close()
+
+    calls, delays = [], []
+    monkeypatch.setattr(
+        telegram.urllib.request, "urlopen",
+        lambda *args, **kwargs: calls.append(1) or Response(b'{"ok":false,"error_code":429,"parameters":{"retry_after":1}}'),
+    )
+    monkeypatch.setattr(telegram.time, "sleep", delays.append)
+
+    with pytest.raises(RuntimeError, match="429"):
+        _send_message("test-token", "123", "test message")
+
+    assert len(calls) == 4
+    assert delays == [1, 1, 1]
 
 
 def test_sends_only_unsent_items_and_persists_ledger(tmp_path):

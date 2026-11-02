@@ -1,6 +1,6 @@
 """Invio del riepilogo giornaliero normativo e finanziario a Telegram."""
 from __future__ import annotations
-import hashlib,json,os,urllib.error,urllib.parse,urllib.request
+import hashlib,json,os,time,urllib.error,urllib.parse,urllib.request
 from datetime import datetime,timezone
 from pathlib import Path
 from typing import Any,Callable
@@ -20,10 +20,37 @@ def _load_items(path:str|Path)->list[dict[str,Any]]:
 def _send_message(token:str,chat_id:str,text:str)->None:
  url=f"https://api.telegram.org/bot{token}/sendMessage"
  body=urllib.parse.urlencode({"chat_id":chat_id,"text":text,"disable_web_page_preview":"true"}).encode()
- try:
-  with urllib.request.urlopen(urllib.request.Request(url,data=body,method="POST"),timeout=20) as response: payload=json.loads(response.read().decode())
- except (urllib.error.URLError,TimeoutError,json.JSONDecodeError): raise RuntimeError("Invio Telegram non riuscito (rete o risposta non valida)") from None
- if not payload.get("ok"): raise RuntimeError(f"Telegram ha rifiutato il messaggio: {str(payload.get('description') or 'errore API')[:200]}")
+ request=urllib.request.Request(url,data=body,method="POST")
+ for attempt in range(4):
+  try:
+   with urllib.request.urlopen(request,timeout=20) as response: payload=json.loads(response.read().decode())
+  except urllib.error.HTTPError as exc:
+   try: payload=json.loads(exc.read().decode())
+   except (UnicodeDecodeError,json.JSONDecodeError): payload={}
+   if exc.code==429 and attempt<3:
+    parameters=payload.get("parameters",{}) if isinstance(payload,dict) else {}
+    delay=parameters.get("retry_after",2)
+    try: delay=max(1,min(30,int(delay)))
+    except (TypeError,ValueError): delay=2
+    time.sleep(delay)
+    continue
+   raise RuntimeError(f"Telegram ha rifiutato il messaggio: HTTP {exc.code}") from None
+  except (urllib.error.URLError,TimeoutError,json.JSONDecodeError):
+   raise RuntimeError("Invio Telegram non riuscito (rete o risposta non valida)") from None
+  if not isinstance(payload,dict):
+   raise RuntimeError("Invio Telegram non riuscito (risposta non valida)")
+  if isinstance(payload,dict) and payload.get("ok"):
+   return
+  parameters=payload.get("parameters",{}) if isinstance(payload,dict) else {}
+  if isinstance(payload,dict) and payload.get("error_code")==429 and attempt<3:
+   delay=parameters.get("retry_after",2)
+   try: delay=max(1,min(30,int(delay)))
+   except (TypeError,ValueError): delay=2
+   time.sleep(delay)
+   continue
+  code=payload.get("error_code")
+  detail=str(payload.get("description") or (f"HTTP {code}" if code else "errore API"))[:200]
+  raise RuntimeError(f"Telegram ha rifiutato il messaggio: {detail}")
 def _render_chunks(items:list[dict[str,Any]],include_finance:bool)->list[tuple[list[dict[str,Any]],str]]:
  finance=""
  if include_finance:

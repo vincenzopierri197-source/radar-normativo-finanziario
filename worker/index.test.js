@@ -8,6 +8,10 @@ const archive = { updated_at: today, items: [
   { title: "Regolamento agricolo", summary: "Aziende", url: "https://x.test/2", source_name: "EUR-Lex", published_at: "2020-01-01T00:00:00+00:00", topics: ["agricoltura"] },
 ]};
 const sources = { sources: [{ name: "Gazzetta Ufficiale", url: "https://x.test/feed" }] };
+const sourceHealth = { generated_at: today, source_results: [
+  { name: "Gazzetta Ufficiale", ok: true, required: true, items: 2 },
+  { name: "Senato", ok: false, required: false, error: "timeout" }
+] };
 
 function memKV() {
   const m = new Map();
@@ -17,7 +21,8 @@ const realFetch = globalThis.fetch;
 test.before(() => {
   globalThis.fetch = async (url) => {
     const body = String(url).endsWith("archive.json") ? archive : String(url).endsWith("sources.json") ? sources : null;
-    return new Response(JSON.stringify(body), { status: body ? 200 : 404 });
+    const payload = String(url).endsWith("source_health.json") ? sourceHealth : body;
+    return new Response(JSON.stringify(payload), { status: payload ? 200 : 404 });
   };
 });
 test.after(() => { globalThis.fetch = realFetch; });
@@ -41,6 +46,9 @@ test("cerca, ultime, oggi, ieri, stato", async () => {
   assert.doesNotMatch(await handleCommand("/ieri", 1, e), /decreto fiscale/);
   assert.match(await handleCommand("/ultimi7giorni", 1, e), /decreto fiscale/);
   assert.match(await handleCommand("/stato", 1, e), /Archivio: OK · 2 elementi/);
+  const status = await handleCommand("/stato", 1, e);
+  assert.match(status, /Ultima scansione: ATTENZIONE · 1\/2 fonti OK/);
+  assert.match(status, /Senato: timeout/);
 });
 
 test("filtri", async () => {
