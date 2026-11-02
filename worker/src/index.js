@@ -525,9 +525,10 @@ export async function handleCommand(text, chatId, env, deps = {}) {
     }
     case "/stato": {
       const fetchGithub = deps.fetchGithub || fetch;
-      const [archiveResult, sourcesResult] = await Promise.allSettled([
+      const [archiveResult, sourcesResult, healthResult] = await Promise.allSettled([
         archiveItems(env, fetchGithub),
-        ghJson(env, "config/sources.json", fetchGithub)
+        ghJson(env, "config/sources.json", fetchGithub),
+        ghJson(env, "data/source_health.json", fetchGithub)
       ]);
       const lines = ["Radar Normativo: bot attivo (Cloudflare Workers)."];
       if (archiveResult.status === "fulfilled") {
@@ -541,6 +542,17 @@ export async function handleCommand(text, chatId, env, deps = {}) {
       } else {
         const reason = sourcesResult.status === "rejected" ? sourcesResult.reason?.message : "configurazione fonti non valida";
         lines.push(`Fonti configurate: ERRORE · ${String(reason || "lettura non riuscita").slice(0, 180)}`);
+      }
+      if (healthResult.status === "fulfilled" && Array.isArray(healthResult.value?.source_results)) {
+        const results = healthResult.value.source_results.filter((s) => s && typeof s === "object");
+        const ok = results.filter((s) => s.ok).length;
+        lines.push(`Ultima scansione: ${ok === results.length ? "OK" : "ATTENZIONE"} · ${ok}/${results.length} fonti OK · ${healthResult.value.generated_at || "data non disponibile"}`);
+        for (const source of results.filter((s) => !s.ok)) {
+          const required = source.required === false ? "opzionale" : "obbligatoria";
+          lines.push(`• ERRORE (${required}) — ${source.name || "fonte"}: ${String(source.error || "errore non specificato").slice(0, 140)}`);
+        }
+      } else {
+        lines.push("Ultima scansione: non disponibile (nessun esito persistito o archivio remoto non raggiungibile).");
       }
       lines.push("Lo stato giuridico degli atti non è certificato automaticamente.");
       return lines.join("\n");
