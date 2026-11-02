@@ -33,6 +33,7 @@ HELP = """Comandi Radar Normativo e Finanziario:
 /fonti — fonti normative monitorate
 /filtri — mostra o configura i filtri personali
 /stato — stato dell'archivio normativo e delle fonti
+/economia — quadro economico e lettura dei mercati
 /mercati — quotazioni e valutazione dei nove strumenti finanziari
 /finanza — riepilogo finanziario attuale
 /finanzaoggi — alias di /finanza
@@ -140,6 +141,8 @@ def handle_command(
         return "Radar Normativo è pronto. Usa /aiuto per vedere i comandi."
     if command == "/mercati":
         return render_market_briefing()
+    if command == "/economia":
+        return render_economic_report("economia")
     if command in {"/finanza", "/finanzaoggi"}:
         return render_finance_report("current")
     if command == "/finanzieri":
@@ -179,11 +182,15 @@ def handle_command(
         updated = archive.get("updated_at", "non disponibile") if isinstance(archive, dict) else "non disponibile"
         source_results = latest.get("source_results", []) if isinstance(latest, dict) else []
         if source_results:
+            successful = sum(bool(source.get("ok")) for source in source_results if isinstance(source, dict))
+            total = sum(isinstance(source, dict) for source in source_results)
+            generated = latest.get("generated_at") or "data non disponibile"
             health = "\n".join(
                 f"• {'OK' if source.get('ok') else 'ERRORE'} — {source.get('name', 'fonte')}"
+                + (f" · {source.get('items', 0)} elementi" if source.get("ok") else f" · {source.get('error', 'errore non specificato')}")
                 for source in source_results if isinstance(source, dict)
             )
-            health = "\nStato ultima scansione:\n" + health
+            health = f"\nUltima scansione: {generated} · {successful}/{total} fonti OK\n" + health
         else:
             health = "\nEsito dell'ultima scansione: non disponibile in questo ambiente."
         source_count = len(config.get("sources", [])) if isinstance(config, dict) else 0
@@ -269,6 +276,7 @@ def run_bot(
         {"command": "fonti", "description": "Fonti normative monitorate"},
         {"command": "filtri", "description": "Mostra o configura i filtri"},
         {"command": "stato", "description": "Stato archivio normativo e fonti"},
+        {"command": "economia", "description": "Quadro economico e lettura dei mercati"},
         {"command": "mercati", "description": "Quotazioni dei nove strumenti finanziari"},
         {"command": "finanza", "description": "Riepilogo finanziario attuale"},
         {"command": "finanzaoggi", "description": "Alias del riepilogo finanziario"},
