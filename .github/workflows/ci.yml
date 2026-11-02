@@ -15,6 +15,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Verify source health report can be committed
+        run: |
+          if git check-ignore -q data/source_health.json; then
+            echo "::error::data/source_health.json è escluso da .gitignore"
+            exit 1
+          fi
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
