@@ -1,9 +1,10 @@
 name: Monitoraggio report giornalieri
 
 on:
-  # GitHub applica le pianificazioni solo quando il workflow è presente su main.
+  # I radar riprovano fino alle 12:00 UTC; il margine lascia concludere i job
+  # avviati nell'ultimo slot. UTC fisso evita cron mancanti nei cambi DST.
   schedule:
-    - cron: "15 13 * * *"
+    - cron: "15 15 * * *"
 
 permissions:
   actions: read
