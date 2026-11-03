@@ -9,7 +9,7 @@ Riepilogo giornaliero Telegram che unisce nuove pubblicazioni normative e monito
 
 ## Programmazione
 
-GitHub Actions avvia i radar con tentativi orari dalle 08:00 alle 12:00 Europe/Rome (gli orari UTC sono definiti nei workflow). I marker giornalieri impediscono invii duplicati. Il monitor parte alle 15:15 UTC, dopo l'ultimo slot di retry con margine per il completamento. Valuta i run schedule usando la data locale Europe/Rome e considera validi anche gli avvii tardivi nella stessa giornata; run manuali e run di date precedenti non sostituiscono il controllo giornaliero. Se il radar è già stato completato, un successivo run saltato per marker non costituisce un nuovo successo operativo.
+GitHub Actions avvia i radar con tentativi orari dalle 08:00 alle 12:00 Europe/Rome (gli orari UTC sono definiti nei workflow). I marker giornalieri impediscono invii duplicati. Il monitor parte alle 15:15 UTC, dopo l'ultimo slot di retry con margine per il completamento. Valuta i run schedule usando la data locale Europe/Rome e considera validi anche gli avvii tardivi nella stessa giornata; run manuali e run di date precedenti non sostituiscono il controllo giornaliero.
 
 Configurare i secrets `TELEGRAM_BOT_TOKEN` e `TELEGRAM_CHAT_ID`. Per il comando AI `/ia` del Worker Cloudflare, aggiungere `GROQ_API_KEY` come secret nelle impostazioni del repository GitHub Actions; il workflow di deploy lo trasferisce al Worker. Facoltativamente si può impostare `GROQ_MODEL` nel Worker (predefinito `openai/gpt-oss-20b`). La chiave si crea in GroqCloud e non va mai inserita nel codice o committata nel repository. Le quotazioni provengono dall'endpoint chart Yahoo Finance, possono essere ritardate e alcuni simboli potrebbero non essere disponibili.
 
