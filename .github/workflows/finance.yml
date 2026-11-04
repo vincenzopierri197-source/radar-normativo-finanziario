@@ -35,10 +35,11 @@ jobs:
             echo "Radar finanziario già eseguito oggi ($today)."
             exit 0
           fi
+          # Accetta i retry schedulati tardivi finché restano nella data locale corrente.
           local_hour="$(TZ=Europe/Rome date +%H)"
-          if (( 10#$local_hour < 8 || 10#$local_hour > 12 )); then
+          if (( 10#$local_hour < 8 )); then
             echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "Fuori dalla finestra giornaliera (08:00-12:00 Europe/Rome)."
+            echo "Run schedulato anticipato rispetto alle 08:00 Europe/Rome."
             exit 0
           fi
           echo "run=true" >> "$GITHUB_OUTPUT"
