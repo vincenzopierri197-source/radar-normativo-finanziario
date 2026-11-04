@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:37:07.891410+00:00",
+  "generated_at": "2026-11-04T21:48:35.112221+00:00",
   "source_results": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
@@ -11,7 +11,7 @@
       "name": "Gazzetta Ufficiale — Corte costituzionale",
       "ok": true,
       "required": true,
-      "items": 11
+      "items": 13
     },
     {
       "name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",

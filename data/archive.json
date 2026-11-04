@@ -1,8 +1,1404 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T22:37:07.891410+00:00",
-  "item_count": 403,
+  "updated_at": "2026-11-04T21:48:35.112221+00:00",
+  "item_count": 468,
   "items": [
+    {
+      "id": "999abd4cc7814a5bed39",
+      "title": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 29 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05780/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:05+00:00",
+      "summary": "Riapertura delle operazioni di sottoscrizione dei  buoni  del  Tesoro\npoliennali 3,95%,  con  godimento  1°  ottobre  2026  e  scadenza  1°\nfebbraio 2032, terza e quarta tranche. (26A05780)",
+      "language": "it",
+      "topics": [
+        "economia_finanza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780093+00:00",
+      "analysis_version": 2,
+      "relevance_score": 26,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: economia_finanza (+19)",
+        "indicatori testuali: scadenza (+7)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "112c4d69140189040a05",
+      "title": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 29 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05781/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:05+00:00",
+      "summary": "Riapertura delle operazioni di sottoscrizione dei  buoni  del  Tesoro\npoliennali 3,50%,  con  godimento  16  gennaio  2024  e  scadenza  15\nfebbraio 2031, ottava e nona tranche. (26A05781)",
+      "language": "it",
+      "topics": [
+        "economia_finanza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780163+00:00",
+      "analysis_version": 2,
+      "relevance_score": 26,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: economia_finanza (+19)",
+        "indicatori testuali: scadenza (+7)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "8a9c861be17f1cd44e9c",
+      "title": "CAMERA DI COMMERCIO INDUSTRIA ARTIGIANATO E AGRICOLTURA DEL GRAN SASSO D'ITALIA - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05760/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:05+00:00",
+      "summary": "Provvedimento concernente i marchi  di  identificazione  dei  metalli\npreziosi (26A05760)",
+      "language": "it",
+      "topics": [
+        "imprese",
+        "agricoltura_alimentazione"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780956+00:00",
+      "analysis_version": 2,
+      "relevance_score": 21,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: imprese (+21)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "576a5944d3c90e1b8e68",
+      "title": "CAMERA DI COMMERCIO DI NAPOLI - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05759/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:05+00:00",
+      "summary": "Provvedimenti concernenti i marchi  di  identificazione  dei  metalli\npreziosi (26A05759)",
+      "language": "it",
+      "topics": [
+        "imprese"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.781054+00:00",
+      "analysis_version": 2,
+      "relevance_score": 21,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: imprese (+21)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "18eaba1a4d0fc75aa5b0",
+      "title": "CAMERA DI COMMERCIO DI NAPOLI - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05758/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:04+00:00",
+      "summary": "Provvedimento concernente i marchi  di  identificazione  dei  metalli\npreziosi (26A05758)",
+      "language": "it",
+      "topics": [
+        "imprese"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.781008+00:00",
+      "analysis_version": 2,
+      "relevance_score": 21,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: imprese (+21)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "ac32276be79f70d5698b",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05742/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:04+00:00",
+      "summary": "Modifica  dell'autorizzazione   all'immissione   in   commercio   del\nmedicinale per uso umano «Gelistrol» (26A05742)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780665+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: modifica (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "91453d0117af0ddac788",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05743/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:04+00:00",
+      "summary": "Modifica  dell'autorizzazione   all'immissione   in   commercio   del\nmedicinale  per  uso  umano   «Acido   Acetilsalicilico   Aurobindo».\n(26A05743)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780724+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: modifica (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "55553a5b2e9d0f919a16",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05745/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:04+00:00",
+      "summary": "Revoca, su rinuncia, dell'autorizzazione all'immissione in  commercio\ndel medicinale per uso umano «Glucosamina Solfato EG». (26A05745)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780785+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "6da9a478fc5390a887de",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05746/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:04+00:00",
+      "summary": "Revoca, su rinuncia, dell'autorizzazione all'immissione in  commercio\ndel medicinale per uso umano «Atorvastatina Pensa». (26A05746)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780838+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "15db4111f280d0f039ae",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05747/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:04+00:00",
+      "summary": "Sospensione dell'autorizzazione alla  produzione  di  medicinali  per\nterapie avanzate preparati su base  non  ripetitiva  per  uso  umano,\nrilasciata alla societa' Fondazione Banca degli occhi del Veneto ETS.\n(26A05747)",
+      "language": "it",
+      "topics": [
+        "fisco",
+        "previdenza",
+        "economia_finanza",
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780899+00:00",
+      "analysis_version": 2,
+      "relevance_score": 24,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "a7822a683ddab5fb6b3b",
+      "title": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 28 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05741/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:03+00:00",
+      "summary": "Riapertura delle operazioni di sottoscrizione dei buoni ordinari  del\nTesoro a 45 giorni, quinta e sesta tranche. (26A05741)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.779981+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "423069494d99353b583d",
+      "title": "MINISTERO DELL'ECONOMIA E DELLE FINANZE - DECRETO 28 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05740/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:02+00:00",
+      "summary": "Riapertura delle operazioni di sottoscrizione dei buoni ordinari  del\nTesoro a 133 giorni, terza e quarta tranche. (26A05740)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.779887+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "35627123ebbcc83f5379",
+      "title": "MINISTERO DEGLI AFFARI ESTERI E DELLA COOPERAZIONE INTERNAZIONALE - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05734/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:02+00:00",
+      "summary": "Rilascio di exequatur (26A05734)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.781103+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "98aeb27c451ec9161a74",
+      "title": "MINISTERO DELLA CULTURA - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05733/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:01+00:00",
+      "summary": "Fondo  per  la  promozione  della  lettura,  della  tutela  e   della\nvalorizzazione   del   patrimonio   librario   -   Assegnazione   dei\nfinanziamenti per l'anno finanziario 2026. (26A05733)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.781184+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "10d3135f379734ea1118",
+      "title": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 7 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05731/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:01+00:00",
+      "summary": "Modifiche  al  decreto  27  settembre  2023,  recante:  «Disposizioni\nnazionali  in   materia   di   riconoscimento   e   controllo   delle\norganizzazioni di produttori \"ortofrutticoli\" e loro associazioni, di\nfondi di esercizio e  programmi  operativi  previsti  dall'intervento\nsettoriale ortofrutticoli del  Piano  strategico  della  PAC  (PSP)».\n(26A05731)",
+      "language": "it",
+      "topics": [
+        "agricoltura_alimentazione"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.779600+00:00",
+      "analysis_version": 2,
+      "relevance_score": 21,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: agricoltura_alimentazione (+18)",
+        "indicatori testuali: disposizioni (+3)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "a74f28d450c1afc2b8de",
+      "title": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 13 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05730/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:01+00:00",
+      "summary": "Riconoscimento  dell'idoneita'  al  Centro  di  saggio  «SAGEA»,   in\nCastagnito  d'Alba,  ad  effettuare   prove   ufficiali   di   campo,\nfinalizzate  alla  produzione   di   dati   di   efficacia   e   alla\ndeterminazione dell'entita' dei  residui  di  prodotti  fitosanitari.\n(26A05730)",
+      "language": "it",
+      "topics": [
+        "agricoltura_alimentazione"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.779727+00:00",
+      "analysis_version": 2,
+      "relevance_score": 18,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: agricoltura_alimentazione (+18)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "97084cc07a99cfc255b6",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05732/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:01+00:00",
+      "summary": "Autorizzazione all'immissione in commercio  del  medicinale  per  uso\numano, a base di dolutegravir, «Dolutegravir Teva». (26A05732)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780611+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "ee5f3c191b935c8c1560",
+      "title": "PRESIDENZA DEL CONSIGLIO DEI MINISTRI DIPARTIMENTO DELLA PROTEZIONE CIVILE - DECRETO 6 agosto 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05728/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:00+00:00",
+      "summary": "Approvazione   del   secondo   programma    degli    interventi    di\nriqualificazione   sismica   degli   edifici   pubblici,   ai   sensi\ndell'articolo 9-ter, commi  2,  lettera  a),  numero  1),  e  3,  del\ndecreto-legge 11 giugno 2024, n. 76, convertito,  con  modificazioni,\ndalla legge 8 agosto 2024, n. 111. (26A05728)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780263+00:00",
+      "analysis_version": 2,
+      "relevance_score": 27,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "indicatori testuali: decreto-legge, legge, modifica (+27)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "2104a4df26d1ad12d6e1",
+      "title": "MINISTERO DELL'AGRICOLTURA, DELLA SOVRANITA' ALIMENTARE E DELLE FORESTE - DECRETO 28 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05729/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:00+00:00",
+      "summary": "Modifica ordinaria al disciplinare di  produzione  della  indicazione\ngeografica protetta «Uva di Puglia». (26A05729)",
+      "language": "it",
+      "topics": [
+        "agricoltura_alimentazione"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.779807+00:00",
+      "analysis_version": 2,
+      "relevance_score": 23,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: agricoltura_alimentazione (+18)",
+        "indicatori testuali: modifica (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "909dbe52a9e1b2dceaa7",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05624/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:52:00+00:00",
+      "summary": "Autorizzazione all'immissione in commercio  del  medicinale  per  uso\numano, a base di brinzolamide, «Brinzolamide Sandoz Gmbh». (26A05624)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780559+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "bc5938435013375b7f84",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05621/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:51:59+00:00",
+      "summary": "Autorizzazione all'immissione in commercio  del  medicinale  per  uso\numano, a base di decitabina, «Decitabina Seacross». (26A05621)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780390+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "5f7ee21695c7e89a4c1a",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05622/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:51:59+00:00",
+      "summary": "Autorizzazione all'immissione in commercio  del  medicinale  per  uso\numano, a base di ruxolitinib, «Ruxolitinib Sandoz». (26A05622)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780449+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "50d483130c55fed8da90",
+      "title": "AGENZIA ITALIANA DEL FARMACO - COMUNICATO",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26A05623/SG",
+      "source_name": "Gazzetta Ufficiale — Serie Generale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/SG",
+      "published_at": "2026-11-04T16:51:59+00:00",
+      "summary": "Autorizzazione all'immissione in commercio  del  medicinale  per  uso\numano, a base di ibuprofene, «Ibuprofene Sandoz BV». (26A05623)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:32.780504+00:00",
+      "analysis_version": 2,
+      "relevance_score": 20,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "9883da462b933a599070",
+      "title": "Regulation (EU) 2026/2473 of the European Parliament and of the Council of 21 October 2026 amending Regulation (EU) 2023/2124 on certain provisions for fishing in the General Fisheries Commission for the Mediterranean (GFCM) Agreement area",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R2473",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "agricoltura_alimentazione"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682206+00:00",
+      "analysis_version": 2,
+      "relevance_score": 34,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: agricoltura_alimentazione (+18)",
+        "indicatori testuali: regulation, amending, provision (+16)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "835d9e294d70dbce5a65",
+      "title": "Definitive Adoption (EU, Euratom) 2026/2254 of Amending budget No 2 of the European Union for the financial year 2026",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026B2254",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "economia_finanza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682532+00:00",
+      "analysis_version": 2,
+      "relevance_score": 24,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: economia_finanza (+19)",
+        "indicatori testuali: amending (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "21b6119424bff05aa231",
+      "title": "Council Implementing Decision (EU) 2026/2482 of 29 October 2026 amending Implementing Decision (EU) 2018/485 as regards an extension of the authorisation for Denmark to apply a special measure derogating from Article 75 of Directive 2006/112/EC on the common system of value added tax",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D2482",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "fisco"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682080+00:00",
+      "analysis_version": 2,
+      "relevance_score": 49,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)",
+        "indicatori testuali: directive, decision, extension, amending (+25)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "7a172d260787526ae166",
+      "title": "Council Decision (EU) 2026/2484 of 29 October 2026 authorising the opening of negotiations for agreements between the European Union and Bolivia, Canada, Chile, Costa Rica, Ecuador, Panama, Peru and the United Arab Emirates on cooperation between the European Union Agency for Criminal Justice Cooperation (Eurojust) and the competent authorities for judicial cooperation in criminal matters of those third States",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D2484",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "giustizia_diritto_penale"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.681672+00:00",
+      "analysis_version": 2,
+      "relevance_score": 21,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: giustizia_diritto_penale (+17)",
+        "indicatori testuali: decision (+4)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "504259367cf66255c88b",
+      "title": "Council Decision (EU) 2026/2475 of 26 October 2026 establishing the position to be taken on behalf of the European Union within the Joint Committee established by the Agreement on the withdrawal of the United Kingdom of Great Britain and Northern Ireland from the European Union and the European Atomic Energy Community as regards the adoption of a decision adding a newly adopted Union act to Annex 2 to the Windsor Framework",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D2475",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "ambiente_energia"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682315+00:00",
+      "analysis_version": 2,
+      "relevance_score": 19,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: ambiente_energia (+15)",
+        "indicatori testuali: decision (+4)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "f30ea3f292a17ce5ad9e",
+      "title": "Council Decision (EU) 2026/2469 of 26 October 2026 establishing the position to be taken on behalf of the European Union within the Joint Committee established by the Agreement on the withdrawal of the United Kingdom of Great Britain and Northern Ireland from the European Union and the European Atomic Energy Community as regards the adoption of a decision adding a newly adopted Union act to Annex 2 to the Windsor Framework",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D2469",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "ambiente_energia"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.681530+00:00",
+      "analysis_version": 2,
+      "relevance_score": 19,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: ambiente_energia (+15)",
+        "indicatori testuali: decision (+4)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "e5cdc5d9fda21fd5f385",
+      "title": "Corrigendum to Regulation (EU) 2026/715 of the European Parliament and of the Council of 11 March 2026 on European Union designs (OJ L, 2026/715, 30.3.2026)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0715R(01)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.681810+00:00",
+      "analysis_version": 2,
+      "relevance_score": 8,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "indicatori testuali: regulation (+8)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "9b9419047c5327204bfe",
+      "title": "Corrigendum to Council Decision (CFSP) 2026/455 of 26 February 2026 on restrictive measures to combat terrorism, repealing Articles 2, 3 and 3a of Common Position 2001/931/CFSP on the application of specific measures to combat terrorism and repealing Decision (CFSP) 2025/1577 and Decision (CFSP) 2026/421 (OJ L, 2026/455, 26.2.2026)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0455R(02)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "difesa_sicurezza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.681925+00:00",
+      "analysis_version": 2,
+      "relevance_score": 26,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: difesa_sicurezza (+14)",
+        "indicatori testuali: decision, repeal (+12)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "21725e7b9da3ba1437f0",
+      "title": "Commission Implementing Regulation (EU) 2026/2490 of 3 November 2026 amending for the 364th time Council Regulation (EC) No 881/2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R2490",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "difesa_sicurezza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682412+00:00",
+      "analysis_version": 2,
+      "relevance_score": 31,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: difesa_sicurezza (+14)",
+        "indicatori testuali: regulation, amending, implementing (+17)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "f5db9ba343e07f8248b9",
+      "title": "Commission Implementing Decision (EU) 2026/2413 of 3 November 2026 on setting up the European Digital Infrastructure Consortium on Education (EDU-EDIC)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D2413",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "trasporti_infrastrutture",
+        "digitale_cyber"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682477+00:00",
+      "analysis_version": 2,
+      "relevance_score": 27,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: digitale_cyber (+19)",
+        "indicatori testuali: decision, implementing (+8)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "d7edb564bc7ddad60ad8",
+      "title": "CELEX:32026R2133R(01)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R2133R(01)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682124+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "a606b80fc7786c49deb3",
+      "title": "CELEX:32026R0322R(01)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0322R(01)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.681732+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "83ed3e8c35374028e3cc",
+      "title": "CELEX:32024R3193R(01)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R3193R(01)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-03T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.681975+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "2ca470acf4ef8817e771",
+      "title": "n. 183 SENTENZA 22 settembre - 3 novembre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/T-260183/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "Giudizio di legittimita' costituzionale in via principale. \n \nCalamita' pubbliche - Norme della Regione siciliana  -  Eventi  meteo\n  avversi  dei  giorni  19,  20  e  21  gennaio  2026  e  conseguente\n  dichiarazione dello stato di emergenza - Interventi urgenti per far\n  fronte ai danni causati - Erogazione di contributi e affidamento di\n  contratti pubblici - Operatori economici  -  Requisiti  -  Regolare\n  posizione contributiva, accertata mediante il  documento  unico  di\n  regolarita' cont.........(T-260183)",
+      "language": "it",
+      "topics": [
+        "fisco"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.220088+00:00",
+      "analysis_version": 2,
+      "relevance_score": 29,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)",
+        "indicatori testuali: contribut (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "6d1a641285af101e4af8",
+      "title": "n. 182 SENTENZA 22 settembre - 3 novembre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/T-260182/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "Giudizio di legittimita' costituzionale in via principale. \n \nDisabilita' -  Introduzione,  definizione,  copertura  finanziaria  e\n  autorizzazione alla spesa del livello essenziale delle  prestazioni\n  (LEP) in materia di assistenza all'autonomia e  alla  comunicazione\n  personale (ASCOM) per gli alunni e gli  studenti  con  accertamento\n  della condizione della disabilita' in eta' evolutiva -  Istituzione\n  di  un  registro  nazionale  per  la  ricognizione  del  fabbisogno\n  territoriale   a.........(T-260182)",
+      "language": "it",
+      "topics": [
+        "fisco"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.219959+00:00",
+      "analysis_version": 2,
+      "relevance_score": 24,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "32978e2430a9ade61a50",
+      "title": "n. 181 SENTENZA 10 giugno - 3 novembre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/T-260181/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "Giudizio di legittimita' costituzionale in via incidentale. \n \nReati militari - Diffamazione militare - Trattamento sanzionatorio  -\n  Pena detentiva - Possibilita', per  il  giudice,  di  applicare  in\n  alternativa la pena pecuniaria,  come  previsto  per  il  reato  di\n  diffamazione comune - Omessa previsione - Violazione del principio,\n  anche convenzionale, della liberta' di manifestazione del  pensiero\n  e dell'uniformita' dell'ordinamento delle  Forze  armate  a  quello\n  generale - ille.........(T-260181)",
+      "language": "it",
+      "topics": [
+        "fisco",
+        "giustizia_diritto_penale",
+        "difesa_sicurezza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.219831+00:00",
+      "analysis_version": 2,
+      "relevance_score": 32,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)",
+        "indicatori testuali: sanzion (+8)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "6ed2d4e5f6e5cd0871cb",
+      "title": "Regulation (EU) 2026/2387 of the European Parliament and of the Council of 21 October 2026 on establishing the Programme for agile and rapid defence innovation (AGILE) and amending Regulations (EU) 2024/795 and (EU) 2026/467 (Text with EEA relevance)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R2387",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "fisco",
+        "difesa_sicurezza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683238+00:00",
+      "analysis_version": 2,
+      "relevance_score": 37,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)",
+        "indicatori testuali: regulation, amending (+13)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "5789574c61f1bf7f2320",
+      "title": "Regulation (EU) 2026/2382 of the European Parliament and of the Council of 21 October 2026 amending Regulations (EC) No 1907/2006, (EC) No 1272/2008, (EU) No 528/2012, (EU) 2019/1021 and (EU) 2021/697 as regards defence readiness and facilitating defence investments and conditions for defence industry",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R2382",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "difesa_sicurezza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683116+00:00",
+      "analysis_version": 2,
+      "relevance_score": 27,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: difesa_sicurezza (+14)",
+        "indicatori testuali: regulation, amending (+13)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "9a1fbc64206eed178b44",
+      "title": "Regulation (EU) 2026/2381 of the European Parliament and of the Council of 21 October 2026 on the acceleration of permit-granting processes for defence readiness projects",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R2381",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "difesa_sicurezza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683342+00:00",
+      "analysis_version": 2,
+      "relevance_score": 22,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: difesa_sicurezza (+14)",
+        "indicatori testuali: regulation (+8)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "e56e9ac876e9977eae10",
+      "title": "Rectificatif au règlement délégué (UE) 2026/1061 de la Commission du 7 mai 2026 modifiant le règlement délégué (UE) 2019/980 en ce qui concerne le format normalisé du prospectus et l’ordre normalisé des informations qu’il contient, ainsi que la rationalisation de son contenu et de ses modalités d’examen et d’approbation (JO L, 2026/1061, 13.8.2026)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1061R(02)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682898+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "bffb5f1968b9b75dadb2",
+      "title": "Directive (EU) 2026/2383 of the European Parliament and of the Council of 21 October 2026 amending Directives 2009/43/EC and 2009/81/EC, as regards the simplification of intra-EU transfers of defence-related products and the simplification of security and defence procurement",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026L2383",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "difesa_sicurezza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682772+00:00",
+      "analysis_version": 2,
+      "relevance_score": 27,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: difesa_sicurezza (+14)",
+        "indicatori testuali: directive, amending (+13)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "7dc4c9171c0c4742847e",
+      "title": "Commission Implementing Regulation (EU) 2026/2406 of 30 October 2026 granting a Union authorisation for the biocidal product family PAA based disinfectants - BPF2 in accordance with Regulation (EU) No 528/2012 of the European Parliament and of the Council",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R2406",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683579+00:00",
+      "analysis_version": 2,
+      "relevance_score": 32,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: regulation, implementing (+12)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "b105531b0baf99ddffb8",
+      "title": "Commission Implementing Decision (EU) 2026/2405 of 30 October 2026 not amending Implementing Regulation (EU) 2022/2127 as regards minor and administrative changes to the Union authorisation of the biocidal product family Ecolab UA BPF 1-Propanol (notified under document C(2026) 7659)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D2405",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683423+00:00",
+      "analysis_version": 2,
+      "relevance_score": 41,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: regulation, decision, amending, implementing (+21)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "4065c7328ca423721f47",
+      "title": "Commission Delegated Regulation (EU) 2026/1741 of 15 July 2026 amending the Annex to Regulation (EU) 2019/287 of the European Parliament and of the Council",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1741",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683643+00:00",
+      "analysis_version": 2,
+      "relevance_score": 13,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "indicatori testuali: regulation, amending (+13)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "fe3e612c5110aad9c0e8",
+      "title": "Commission Decision (EU) 2026/2404 of 29 October 2026 amending Decision (EU) 2021/2147 as regards the approval of civil aviation security equipment with EU Stamp marking",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D2404",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "",
+      "language": "en",
+      "topics": [
+        "trasporti_infrastrutture"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682690+00:00",
+      "analysis_version": 2,
+      "relevance_score": 26,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: trasporti_infrastrutture (+17)",
+        "indicatori testuali: decision, amending (+9)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "2b121fcdbcc636b7c5ad",
+      "title": "CELEX:32024D2103R(01)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024D2103R(01)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683154+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "7ce7ae1bbfc42bc885c1",
+      "title": "CELEX:32021R1929R(01)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32021R1929R(01)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683498+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "bfb3b9ccdcc6e652f734",
+      "title": "CELEX:32019R1091R(01)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32019R1091R(01)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683461+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "0aa800fffb61af7f42fc",
+      "title": "CELEX:32017R0172R(01)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32017R0172R(01)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683016+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "abde44644d82e1678eaf",
+      "title": "CELEX:32015R0009R(03)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32015R0009R(03)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682619+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "74d51179fad5226c3e02",
+      "title": "CELEX:32013R0294R(09)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32013R0294R(09)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.682573+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "881e7dd8bda5a9b76d81",
+      "title": "CELEX:32011R0142R(18)",
+      "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32011R0142R(18)",
+      "source_name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
+      "source_url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "published_at": "2026-11-02T23:00:00+00:00",
+      "summary": "The corrigendum does not concern the English version.",
+      "language": "en",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.683274+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
     {
       "id": "93a0880232a32f83cf2a",
       "title": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - COMUNICATO",
@@ -612,6 +2008,59 @@
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-11-02T21:46:18.060871+00:00",
       "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "a5a799ef3fa48e27c6de",
+      "title": "n. 180 SENTENZA 23 settembre - 2 novembre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/T-260180/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-11-01T23:00:00+00:00",
+      "summary": "Giudizio di legittimita' costituzionale in via incidentale. \n \nProcesso penale - Possibilita', per i delitti di turbata liberta' del\n  procedimento di scelta del contraente (art. 353-bis cod. pen.) e di\n  traffico  di  influenze  illecite  (art.  346-bis  cod.  pen.),  di\n  applicare la sospensione del  procedimento  con  messa  alla  prova\n  dell'imputato  mediante  l'inserimento  nella  lista  dei  casi  di\n  applicazione citazione diretta a giudizio (art. 550, comma 2,  cod.\n  proc. pen.) -  .........(T-260180)",
+      "language": "it",
+      "topics": [
+        "previdenza"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.219710+00:00",
+      "analysis_version": 2,
+      "relevance_score": 22,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: previdenza (+22)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
+      "id": "f43a1222c6420f98dc34",
+      "title": "n. 179 SENTENZA 21 settembre - 2 novembre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/T-260179/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-11-01T23:00:00+00:00",
+      "summary": "Giudizio di legittimita' costituzionale in via incidentale. \n \nEdilizia e urbanistica - Norme della Regione Puglia -  Contributo  di\n  costruzione - Ambito di applicazione  -  Asserita  estensione  agli\n  interventi di  ampliamento  di  edifici  residenziali  unifamiliari\n  entro il limite del 20% della  volumetria  esistente  -  Denunciata\n  violazione dei principi fondamentali nella  materia  di  competenza\n  concorrente del governo  del  territorio  -  Non  fondatezza  della\n  questione.  \n- .........(T-260179)",
+      "language": "it",
+      "topics": [
+        "fisco"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.219575+00:00",
+      "analysis_version": 2,
+      "relevance_score": 29,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)",
+        "indicatori testuali: contribut (+5)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
       "seen_count": 1
     },
     {
@@ -1752,7 +3201,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.423712+00:00",
+      "collected_at": "2026-11-04T21:48:34.684599+00:00",
       "analysis_version": 2,
       "relevance_score": 36,
       "priority": "media",
@@ -1762,8 +3211,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "f46433fafa8df8e70000",
@@ -1779,7 +3228,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.422457+00:00",
+      "collected_at": "2026-11-04T21:48:34.683872+00:00",
       "analysis_version": 2,
       "relevance_score": 19,
       "priority": "bassa",
@@ -1789,8 +3238,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "680abdad2358c10ec03e",
@@ -1804,7 +3253,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.424137+00:00",
+      "collected_at": "2026-11-04T21:48:34.685000+00:00",
       "analysis_version": 2,
       "relevance_score": 7,
       "priority": "bassa",
@@ -1813,8 +3262,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "8d0649dad0577a44ac44",
@@ -1830,7 +3279,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.423148+00:00",
+      "collected_at": "2026-11-04T21:48:34.684248+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -1840,8 +3289,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "e436ce17b6c27f14506c",
@@ -1857,7 +3306,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.422081+00:00",
+      "collected_at": "2026-11-04T21:48:34.684021+00:00",
       "analysis_version": 2,
       "relevance_score": 18,
       "priority": "bassa",
@@ -1867,8 +3316,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "8cd8ab88f86be87a4486",
@@ -1882,7 +3331,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.422839+00:00",
+      "collected_at": "2026-11-04T21:48:34.684681+00:00",
       "analysis_version": 2,
       "relevance_score": 4,
       "priority": "bassa",
@@ -1891,8 +3340,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "301e89a6edf083f51364",
@@ -1908,7 +3357,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.424482+00:00",
+      "collected_at": "2026-11-04T21:48:34.685216+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -1918,8 +3367,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "8120b29cde9f9897770f",
@@ -1935,7 +3384,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.423313+00:00",
+      "collected_at": "2026-11-04T21:48:34.684513+00:00",
       "analysis_version": 2,
       "relevance_score": 36,
       "priority": "media",
@@ -1945,8 +3394,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "5901722b6473c8490c76",
@@ -1962,7 +3411,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.423980+00:00",
+      "collected_at": "2026-11-04T21:48:34.684886+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -1972,8 +3421,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "f436e0ac9cd9dcceb95c",
@@ -1987,7 +3436,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.423548+00:00",
+      "collected_at": "2026-11-04T21:48:34.684393+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -1996,8 +3445,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "09f3a59e7a55d1df907e",
@@ -2013,7 +3462,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.422587+00:00",
+      "collected_at": "2026-11-04T21:48:34.683956+00:00",
       "analysis_version": 2,
       "relevance_score": 25,
       "priority": "bassa",
@@ -2023,8 +3472,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "3bb365ee4889eb7a8366",
@@ -2038,7 +3487,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.422241+00:00",
+      "collected_at": "2026-11-04T21:48:34.683742+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -2047,8 +3496,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "0683ae2bdb7b39beb2f9",
@@ -2064,7 +3513,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.424587+00:00",
+      "collected_at": "2026-11-04T21:48:34.685285+00:00",
       "analysis_version": 2,
       "relevance_score": 32,
       "priority": "media",
@@ -2074,8 +3523,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "4f675cf5ae4f6a380811",
@@ -2092,7 +3541,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.422704+00:00",
+      "collected_at": "2026-11-04T21:48:34.684105+00:00",
       "analysis_version": 2,
       "relevance_score": 37,
       "priority": "media",
@@ -2102,8 +3551,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "6fc9c566bbade96ced29",
@@ -2119,7 +3568,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.423437+00:00",
+      "collected_at": "2026-11-04T21:48:34.684322+00:00",
       "analysis_version": 2,
       "relevance_score": 37,
       "priority": "media",
@@ -2129,8 +3578,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "645a3f02397573718728",
@@ -2146,7 +3595,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.423828+00:00",
+      "collected_at": "2026-11-04T21:48:34.684785+00:00",
       "analysis_version": 2,
       "relevance_score": 19,
       "priority": "bassa",
@@ -2156,8 +3605,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "2092580471552351bd8b",
@@ -2171,15 +3620,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.424326+00:00",
+      "collected_at": "2026-11-04T21:48:34.685113+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "51b561f69bf6446237fb",
@@ -2193,15 +3642,37 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.422989+00:00",
+      "collected_at": "2026-11-04T21:48:34.684145+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
+    },
+    {
+      "id": "5ba47f55a28f67dd86c5",
+      "title": "n. 178 ORDINANZA 5  - 29 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/T-260178/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-10-28T23:00:00+00:00",
+      "summary": "Giudizio sull'ammissibilita' di ricorso per conflitto di attribuzione\ntra poteri dello Stato. \n \nParlamento  -  Immunita'  parlamentari  -  Procedimento  civile   nei\n  confronti del sen. Matteo Renzi per  sue  dichiarazioni,  contenute\n  nel libro \"Il Mostro\",  asseritamente  lesive  dell'onore  e  della\n  reputazione del magistrato C. F.V.B.  -  Deliberazione  del  Senato\n  della Repubblica di insindacabilita' delle suddette dichiarazioni -\n  Conflitto di attribuzione tra  poteri  dello  Stato.........(T-260178)",
+      "language": "it",
+      "topics": [],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.219340+00:00",
+      "analysis_version": 2,
+      "relevance_score": 0,
+      "priority": "bassa",
+      "relevance_reasons": [],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
     },
     {
       "id": "1c9c3bb87c0f3049e6f8",
@@ -2217,7 +3688,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.426603+00:00",
+      "collected_at": "2026-11-04T21:48:34.686636+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -2227,8 +3698,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "811bcc299dc3bf67a922",
@@ -2244,7 +3715,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.426871+00:00",
+      "collected_at": "2026-11-04T21:48:34.686709+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -2254,8 +3725,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "40ed15014c5cdc17e55d",
@@ -2271,7 +3742,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.426739+00:00",
+      "collected_at": "2026-11-04T21:48:34.686551+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -2281,8 +3752,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "e7dd97ebc55fc7d29775",
@@ -2296,7 +3767,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.424973+00:00",
+      "collected_at": "2026-11-04T21:48:34.685554+00:00",
       "analysis_version": 2,
       "relevance_score": 9,
       "priority": "bassa",
@@ -2305,8 +3776,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "426534f0082bdf011eba",
@@ -2320,7 +3791,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.424722+00:00",
+      "collected_at": "2026-11-04T21:48:34.685380+00:00",
       "analysis_version": 2,
       "relevance_score": 28,
       "priority": "bassa",
@@ -2329,8 +3800,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "a733334ec6fa84e8c306",
@@ -2346,7 +3817,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.427675+00:00",
+      "collected_at": "2026-11-04T21:48:34.687229+00:00",
       "analysis_version": 2,
       "relevance_score": 31,
       "priority": "media",
@@ -2356,8 +3827,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "f326091ed011d54ede35",
@@ -2371,7 +3842,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.426991+00:00",
+      "collected_at": "2026-11-04T21:48:34.686786+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -2380,8 +3851,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "669c111e24ef6542988e",
@@ -2395,7 +3866,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.427377+00:00",
+      "collected_at": "2026-11-04T21:48:34.686892+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -2404,8 +3875,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "8dd532a08b0ca8f4f764",
@@ -2421,7 +3892,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.427569+00:00",
+      "collected_at": "2026-11-04T21:48:34.687163+00:00",
       "analysis_version": 2,
       "relevance_score": 35,
       "priority": "media",
@@ -2431,8 +3902,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "96df75fc8173e87bbaa2",
@@ -2446,7 +3917,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.427178+00:00",
+      "collected_at": "2026-11-04T21:48:34.687006+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -2455,8 +3926,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "38b072312df8c58fa5ff",
@@ -2472,7 +3943,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.425252+00:00",
+      "collected_at": "2026-11-04T21:48:34.685733+00:00",
       "analysis_version": 2,
       "relevance_score": 33,
       "priority": "media",
@@ -2482,8 +3953,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "042f2a16e666091c5185",
@@ -2497,7 +3968,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.425753+00:00",
+      "collected_at": "2026-11-04T21:48:34.686038+00:00",
       "analysis_version": 2,
       "relevance_score": 17,
       "priority": "bassa",
@@ -2506,8 +3977,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "d3fd780b5d263d4a97b8",
@@ -2523,7 +3994,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.426462+00:00",
+      "collected_at": "2026-11-04T21:48:34.686458+00:00",
       "analysis_version": 2,
       "relevance_score": 31,
       "priority": "media",
@@ -2533,8 +4004,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "cd7f259cecea4840f4da",
@@ -2548,7 +4019,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.426286+00:00",
+      "collected_at": "2026-11-04T21:48:34.686344+00:00",
       "analysis_version": 2,
       "relevance_score": 16,
       "priority": "bassa",
@@ -2557,8 +4028,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "fffe07a30e0eca45cc5a",
@@ -2572,7 +4043,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.425392+00:00",
+      "collected_at": "2026-11-04T21:48:34.685820+00:00",
       "analysis_version": 2,
       "relevance_score": 16,
       "priority": "bassa",
@@ -2581,8 +4052,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "7d93e243cbf6e62ac75c",
@@ -2596,7 +4067,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.425930+00:00",
+      "collected_at": "2026-11-04T21:48:34.686158+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -2605,8 +4076,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "40098b57374c21963e38",
@@ -2620,15 +4091,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.426064+00:00",
+      "collected_at": "2026-11-04T21:48:34.686231+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "0287cd320281ba3d7154",
@@ -2642,15 +4113,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.425617+00:00",
+      "collected_at": "2026-11-04T21:48:34.685941+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "a8224788ad0f5a73438f",
@@ -2664,15 +4135,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.426144+00:00",
+      "collected_at": "2026-11-04T21:48:34.686269+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "d64cb4f07b3dfebdcde8",
@@ -2686,15 +4157,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.425533+00:00",
+      "collected_at": "2026-11-04T21:48:34.685899+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "3f181c1b6fe82b7d6f4a",
@@ -2710,7 +4181,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.428649+00:00",
+      "collected_at": "2026-11-04T21:48:34.687716+00:00",
       "analysis_version": 2,
       "relevance_score": 26,
       "priority": "bassa",
@@ -2720,8 +4191,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "9cd5a74a843231074621",
@@ -2737,7 +4208,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429115+00:00",
+      "collected_at": "2026-11-04T21:48:34.688225+00:00",
       "analysis_version": 2,
       "relevance_score": 31,
       "priority": "media",
@@ -2747,8 +4218,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "17d7906c07a014be89f7",
@@ -2762,7 +4233,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.428466+00:00",
+      "collected_at": "2026-11-04T21:48:34.687805+00:00",
       "analysis_version": 2,
       "relevance_score": 8,
       "priority": "bassa",
@@ -2771,8 +4242,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "a0c922fc21cf1caee690",
@@ -2788,7 +4259,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.428107+00:00",
+      "collected_at": "2026-11-04T21:48:34.687506+00:00",
       "analysis_version": 2,
       "relevance_score": 30,
       "priority": "media",
@@ -2798,8 +4269,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "226a8dcaa2bfc7028596",
@@ -2815,7 +4286,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429435+00:00",
+      "collected_at": "2026-11-04T21:48:34.688304+00:00",
       "analysis_version": 2,
       "relevance_score": 30,
       "priority": "media",
@@ -2825,8 +4296,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "8f46785f6408a0edbc75",
@@ -2842,7 +4313,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.428790+00:00",
+      "collected_at": "2026-11-04T21:48:34.687990+00:00",
       "analysis_version": 2,
       "relevance_score": 32,
       "priority": "media",
@@ -2852,8 +4323,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "182260572d621877fa19",
@@ -2867,7 +4338,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.427894+00:00",
+      "collected_at": "2026-11-04T21:48:34.687366+00:00",
       "analysis_version": 2,
       "relevance_score": 20,
       "priority": "bassa",
@@ -2876,8 +4347,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "52a72b016b5ea2f81b72",
@@ -2891,7 +4362,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.428261+00:00",
+      "collected_at": "2026-11-04T21:48:34.687597+00:00",
       "analysis_version": 2,
       "relevance_score": 16,
       "priority": "bassa",
@@ -2900,8 +4371,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "8e2182ab9e346e070c07",
@@ -2915,7 +4386,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.428979+00:00",
+      "collected_at": "2026-11-04T21:48:34.688055+00:00",
       "analysis_version": 2,
       "relevance_score": 9,
       "priority": "bassa",
@@ -2924,8 +4395,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "6485d03244662a1da0a5",
@@ -2939,15 +4410,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.428871+00:00",
+      "collected_at": "2026-11-04T21:48:34.687891+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "f4fdb369b91a1f6ffcda",
@@ -2961,15 +4432,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429510+00:00",
+      "collected_at": "2026-11-04T21:48:34.688342+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "a1257f33ef5466a4564a",
@@ -2983,15 +4454,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429203+00:00",
+      "collected_at": "2026-11-04T21:48:34.688149+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "e913a3f660d805f584dd",
@@ -3005,15 +4476,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.427749+00:00",
+      "collected_at": "2026-11-04T21:48:34.687271+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "a48336e6c7afe424d6db",
@@ -3027,15 +4498,15 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429299+00:00",
+      "collected_at": "2026-11-04T21:48:34.688109+00:00",
       "analysis_version": 2,
       "relevance_score": 0,
       "priority": "bassa",
       "relevance_reasons": [],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "28bf294b25803f966957",
@@ -3051,7 +4522,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430538+00:00",
+      "collected_at": "2026-11-04T21:48:34.689031+00:00",
       "analysis_version": 2,
       "relevance_score": 39,
       "priority": "media",
@@ -3061,8 +4532,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "7408daa01702eeca5993",
@@ -3078,7 +4549,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429629+00:00",
+      "collected_at": "2026-11-04T21:48:34.688417+00:00",
       "analysis_version": 2,
       "relevance_score": 27,
       "priority": "bassa",
@@ -3088,8 +4559,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "fd7a7689eeec16c23772",
@@ -3105,7 +4576,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430022+00:00",
+      "collected_at": "2026-11-04T21:48:34.688681+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3115,8 +4586,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "664d15195e0104c10445",
@@ -3130,7 +4601,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.431269+00:00",
+      "collected_at": "2026-11-04T21:48:34.689483+00:00",
       "analysis_version": 2,
       "relevance_score": 9,
       "priority": "bassa",
@@ -3139,8 +4610,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "bd8dce97ba0114f96c9a",
@@ -3156,7 +4627,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.431405+00:00",
+      "collected_at": "2026-11-04T21:48:34.689559+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3166,8 +4637,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "fc7e83ae7d505edd7d9a",
@@ -3183,7 +4654,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.431152+00:00",
+      "collected_at": "2026-11-04T21:48:34.689300+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3193,8 +4664,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "9bef2f99e2d5e2f13a45",
@@ -3210,7 +4681,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430743+00:00",
+      "collected_at": "2026-11-04T21:48:34.689167+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3220,8 +4691,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "c60a0c886fd9543ad2e9",
@@ -3237,7 +4708,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429727+00:00",
+      "collected_at": "2026-11-04T21:48:34.688480+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3247,8 +4718,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "e31c3201af944949023e",
@@ -3264,7 +4735,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430281+00:00",
+      "collected_at": "2026-11-04T21:48:34.688933+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3274,8 +4745,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "77c0ce7b4240c1a41de5",
@@ -3291,7 +4762,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430150+00:00",
+      "collected_at": "2026-11-04T21:48:34.688860+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3301,8 +4772,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "ef6bc32dfe6d72ab112e",
@@ -3318,7 +4789,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430905+00:00",
+      "collected_at": "2026-11-04T21:48:34.689358+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3328,8 +4799,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "baa2a27e9dff5aaf0fd9",
@@ -3345,7 +4816,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430651+00:00",
+      "collected_at": "2026-11-04T21:48:34.689107+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3355,8 +4826,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "01dcec37159a7e067174",
@@ -3372,7 +4843,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429823+00:00",
+      "collected_at": "2026-11-04T21:48:34.688544+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3382,8 +4853,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "b4b5022314337fc25a68",
@@ -3399,7 +4870,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.431022+00:00",
+      "collected_at": "2026-11-04T21:48:34.689424+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3409,8 +4880,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "248c4ecf1ea7f886e5c1",
@@ -3426,7 +4897,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.429927+00:00",
+      "collected_at": "2026-11-04T21:48:34.688613+00:00",
       "analysis_version": 2,
       "relevance_score": 26,
       "priority": "bassa",
@@ -3436,8 +4907,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "2be1a3bd68ba3f957181",
@@ -3453,7 +4924,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430822+00:00",
+      "collected_at": "2026-11-04T21:48:34.689217+00:00",
       "analysis_version": 2,
       "relevance_score": 23,
       "priority": "bassa",
@@ -3463,8 +4934,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "e199c98d635bad2427c7",
@@ -3480,7 +4951,7 @@
       ],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.430410+00:00",
+      "collected_at": "2026-11-04T21:48:34.688768+00:00",
       "analysis_version": 2,
       "relevance_score": 26,
       "priority": "bassa",
@@ -3490,8 +4961,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "a8692228d577d44f251b",
@@ -3505,7 +4976,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.431513+00:00",
+      "collected_at": "2026-11-04T21:48:34.689634+00:00",
       "analysis_version": 2,
       "relevance_score": 4,
       "priority": "bassa",
@@ -3514,8 +4985,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "4ade3a641c3fa7c9d766",
@@ -3664,7 +5135,7 @@
       "topics": [],
       "legal_status": "non_verificato",
       "detection_status": "rilevato_da_feed",
-      "collected_at": "2026-11-02T22:37:07.431911+00:00",
+      "collected_at": "2026-11-04T21:48:34.689740+00:00",
       "analysis_version": 2,
       "relevance_score": 13,
       "priority": "bassa",
@@ -3673,8 +5144,8 @@
       ],
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
-      "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
-      "seen_count": 3
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 4
     },
     {
       "id": "79c122f34775a07ad496",
@@ -8498,6 +9969,33 @@
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali."
     },
     {
+      "id": "cc5380c73504ab1478d7",
+      "title": "n. 24 RICORSO PER LEGITTIMITA' COSTITUZIONALE 14 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26C00217/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-10-13T22:00:00+00:00",
+      "summary": "Ricorso per questione di legittimita'  costituzionale  depositato  in\ncancelleria il 14 ottobre 2026 (della Regione Emilia-Romagna). \n \nTributi  -  Federalismo  fiscale  -  Disposizioni   in   materia   di\n  federalismo fiscale regionale - Modifiche al decreto legislativo n.\n  68 del 2011 in materia di fiscalizzazione e perequazione  regionale\n  - Soppressione, a decorrere dall'anno 2027, di alcuni trasferimenti\n  statali alle regioni a statuto ordinario (somme a titolo  di  quota\n  non sanita' .........(26C00217)",
+      "language": "it",
+      "topics": [
+        "fisco"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.220458+00:00",
+      "analysis_version": 2,
+      "relevance_score": 39,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)",
+        "indicatori testuali: decreto legislativo, disposizioni (+15)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
       "id": "e212888290a8668d2534",
       "title": "Rectificatif au règlement (UE) 2025/2052 de la Commission du 13 octobre 2025 établissant des exigences en matière d’écoconception applicables aux sources d’alimentation externes, aux chargeurs sans fil, aux chargeurs à induction, aux chargeurs de batteries pour batteries portables d’utilisation courante et aux câbles USB Type-C, conformément à la directive no 2009/125/CE du Parlement européen et du Conseil, et abrogeant le règlement (UE) 2019/1782 de la Commission (JO L, 2025/2052, 24.11.2025)",
       "url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2052R(02)",
@@ -9069,6 +10567,33 @@
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali."
     },
     {
+      "id": "b54ce08720a5d0d41013",
+      "title": "n. 23 RICORSO PER LEGITTIMITA' COSTITUZIONALE 13 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26C00216/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-10-12T22:00:00+00:00",
+      "summary": "Ricorso per questione di legittimita'  costituzionale  depositato  in\ncancelleria il 13 ottobre 2026 (della Regione Campania). \n \nTributi  -  Federalismo  fiscale  -  Disposizioni   in   materia   di\n  federalismo fiscale regionale - Modifiche al decreto legislativo n.\n  68 del 2011 in materia di fiscalizzazione e perequazione  regionale\n  - Soppressione, a decorrere dall'anno 2027, di alcuni trasferimenti\n  statali alle regioni a statuto ordinario (somme a titolo  di  quota\n  non sanita'  della.........(26C00216)",
+      "language": "it",
+      "topics": [
+        "fisco"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.220338+00:00",
+      "analysis_version": 2,
+      "relevance_score": 39,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)",
+        "indicatori testuali: decreto legislativo, disposizioni (+15)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
       "id": "af55ab556d19efdc1fd0",
       "title": "n. 170 SENTENZA 23 settembre - 13 ottobre 2026",
       "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/14/T-260170/S1",
@@ -9516,6 +11041,33 @@
       "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali."
     },
     {
+      "id": "5ae80bbf6e06333bc644",
+      "title": "n. 22 RICORSO PER LEGITTIMITA' COSTITUZIONALE 12 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26C00214/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-10-11T22:00:00+00:00",
+      "summary": "Ricorso per questione di legittimita'  costituzionale  depositato  in\ncancelleria il 12 ottobre 2026 (della Regione Toscana). \n \nTributi  -  Federalismo  fiscale  -  Disposizioni   in   materia   di\n  federalismo fiscale regionale - Modifiche al decreto legislativo n.\n  68 del 2011 in materia di fiscalizzazione e perequazione  regionale\n  - Soppressione, a decorrere dall'anno 2027, di alcuni trasferimenti\n  statali alle regioni a statuto ordinario (somme a titolo  di  quota\n  non sanita'  della .........(26C00214)",
+      "language": "it",
+      "topics": [
+        "fisco"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.220215+00:00",
+      "analysis_version": 2,
+      "relevance_score": 39,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)",
+        "indicatori testuali: decreto legislativo, disposizioni (+15)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
       "id": "4d7d5ce7aaa4f9e5be47",
       "title": "n. 21 RICORSO PER LEGITTIMITA' COSTITUZIONALE 12 ottobre 2026",
       "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/28/26C00213/S1",
@@ -9767,6 +11319,33 @@
       "seen_count": 1
     },
     {
+      "id": "cfaf502c8549dfd0fcea",
+      "title": "n. 179 ORDINANZA (Atto di promovimento) 6 ottobre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26C00218/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-10-05T22:00:00+00:00",
+      "summary": "Ordinanza del 6 ottobre 2026 della Corte  costituzionale  emessa  nel\ncorso del giudizio di  legittimita'  costituzionale  RO  35/2026  nel\nprocedimento penale a carico di A. S.. \n \nReati e pene - Reati contro il patrimonio - Causa di esclusione della\n  punibilita' per fatti commessi a danno di congiunti  -  Complessivo\n  regime sanzionatorio - Rapporto tra esclusione della punibilita'  e\n  deroghe a tale esclusione - Disciplina. \n- Codice penale, art. 649. \n.........(26C00218)",
+      "language": "it",
+      "topics": [
+        "giustizia_diritto_penale"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.220695+00:00",
+      "analysis_version": 2,
+      "relevance_score": 25,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: giustizia_diritto_penale (+17)",
+        "indicatori testuali: sanzion (+8)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
       "id": "d765d09886ca05d9bacd",
       "title": "n. 17 RICORSO PER LEGITTIMITA' COSTITUZIONALE 2 ottobre 2026",
       "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/14/26C00203/S1",
@@ -9791,6 +11370,33 @@
       "seen_count": 2
     },
     {
+      "id": "77d10c2e7632dc23e581",
+      "title": "n. 178 ORDINANZA (Atto di promovimento) 22 settembre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26C00211/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-09-21T22:00:00+00:00",
+      "summary": "Ordinanza  del  22  settembre  2026  del  Tribunale  di  Perugia  nel\nprocedimento civile promosso da F. F. in proprio e quale ex  socio  e\nrappresentante legale della F. S. di F. F. &amp;  C.  contro  Ispettorato\nterritoriale del lavoro di Perugia. \n \nSanzioni  amministrative  -  Procedimento  amministrativo  -  Mancato\n  pagamento  in  misura  ridotta   -   Presentazione   del   rapporto\n  all'autorita' competente - Emissione  dell'ordinanza-ingiunzione  -\n  Denunciata omessa previsione di un .........(26C00211)",
+      "language": "it",
+      "topics": [
+        "lavoro"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.220577+00:00",
+      "analysis_version": 2,
+      "relevance_score": 31,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: lavoro (+23)",
+        "indicatori testuali: sanzion (+8)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
+    },
+    {
       "id": "9e92f926bbcd0af96c14",
       "title": "n. 176 ORDINANZA (Atto di promovimento) 18 settembre 2026",
       "url": "http://www.gazzettaufficiale.it/eli/id/2026/10/28/26C00209/S1",
@@ -9813,6 +11419,33 @@
       "first_seen_at": "2026-10-31T08:58:49.849289+00:00",
       "last_seen_at": "2026-11-02T22:37:07.891410+00:00",
       "seen_count": 3
+    },
+    {
+      "id": "5ef42dc9dbe7cbcfd9d7",
+      "title": "n. 181 ORDINANZA (Atto di promovimento) 17 settembre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26C00220/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-09-16T22:00:00+00:00",
+      "summary": "Ordinanza del 17 settembre 2026 del Consiglio di  Stato  sul  ricorso\nproposto da Paola Calvaresi contro Azienda sanitaria locale Roma 5  e\nRegione Lazio. \n \nSanita' pubblica - Dirigenza sanitaria - Incarichi  di  direzione  di\n  struttura complessa - Omessa previsione di un concorso pubblico per\n  il conferimento degli incarichi di direzione di struttura complessa\n  nel settore sanitario. \n- Decreto legislativo  30  dicembre  1992,  n.  502  (Riordino  della\n  disciplina in materia sanitaria,  .........(26C00220)",
+      "language": "it",
+      "topics": [
+        "salute_farmaci"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.220932+00:00",
+      "analysis_version": 2,
+      "relevance_score": 32,
+      "priority": "media",
+      "relevance_reasons": [
+        "area tematica: salute_farmaci (+20)",
+        "indicatori testuali: decreto legislativo (+12)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
     },
     {
       "id": "fe098f56f0a0dba75ac3",
@@ -9944,6 +11577,33 @@
       "first_seen_at": "2026-10-20T19:23:22.876502+00:00",
       "last_seen_at": "2026-10-21T08:58:13.818477+00:00",
       "seen_count": 2
+    },
+    {
+      "id": "84e1a23a3f93901ccbe8",
+      "title": "n. 180 ORDINANZA (Atto di promovimento) 7 settembre 2026",
+      "url": "http://www.gazzettaufficiale.it/eli/id/2026/11/04/26C00219/S1",
+      "source_name": "Gazzetta Ufficiale — Corte costituzionale",
+      "source_url": "https://www.gazzettaufficiale.it/rss/S1",
+      "published_at": "2026-09-06T22:00:00+00:00",
+      "summary": "Ordinanza del 7 settembre 2026 del Tribunale amministrativo regionale\nper il Lazio sul ricorso proposto da Intesa  Sanpaolo  S.p.a.  contro\nGestore dei servizi energetici - GSE S.p.a.. \n \nGiurisdizione   -   Giurisdizione   amministrativa   -   Materie   di\n  giurisdizione esclusiva - Devoluzione delle  controversie,  incluse\n  quelle risarcitorie, attinenti alle procedure  e  ai  provvedimenti\n  della  pubblica  amministrazione  concernenti,  tra   l'altro,   la\n  produzione di energia - Previs.........(26C00219)",
+      "language": "it",
+      "topics": [
+        "fisco",
+        "ambiente_energia"
+      ],
+      "legal_status": "non_verificato",
+      "detection_status": "rilevato_da_feed",
+      "collected_at": "2026-11-04T21:48:34.220812+00:00",
+      "analysis_version": 2,
+      "relevance_score": 24,
+      "priority": "bassa",
+      "relevance_reasons": [
+        "area tematica: fisco (+24)"
+      ],
+      "legal_status_note": "Punteggio e classificazione sono euristici; la vigenza, le modifiche e le abrogazioni richiedono verifica su fonti ufficiali.",
+      "first_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "last_seen_at": "2026-11-04T21:48:35.112221+00:00",
+      "seen_count": 1
     },
     {
       "id": "4ac52fb342abf0c5bc46",
