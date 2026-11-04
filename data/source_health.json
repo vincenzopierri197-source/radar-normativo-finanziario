@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:06:33.237865+00:00",
+  "generated_at": "2026-11-04T22:23:18.347267+00:00",
   "source_results": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
@@ -20,16 +20,40 @@
       "items": 100
     },
     {
-      "name": "Senato — Disegni di legge presentati",
-      "ok": false,
+      "name": "EUR-Lex — Legislazione Parlamento e Consiglio",
+      "ok": true,
       "required": false,
-      "error": "ValueError: il server ha restituito una risposta vuota"
+      "items": 100
     },
     {
-      "name": "Senato — Atti del Governo sottoposti a parere parlamentare",
-      "ok": false,
+      "name": "EUR-Lex — Proposte della Commissione",
+      "ok": true,
       "required": false,
-      "error": "ValueError: il server ha restituito una risposta vuota"
+      "items": 100
+    },
+    {
+      "name": "Senato — Disegni di legge presentati (Linked Open Data)",
+      "ok": true,
+      "required": false,
+      "items": 0
+    },
+    {
+      "name": "Camera — Disegni di legge annunciati",
+      "ok": true,
+      "required": false,
+      "items": 5
+    },
+    {
+      "name": "Governo italiano",
+      "ok": true,
+      "required": false,
+      "items": 10
+    },
+    {
+      "name": "Normattiva — Archivio novità",
+      "ok": true,
+      "required": false,
+      "items": 252
     }
   ]
 }
