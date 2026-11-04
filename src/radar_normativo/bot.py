@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
-from radar_normativo.finance import render_finance_report, render_market_briefing
+from radar_normativo.finance import render_finance_report, render_market_briefing, render_my_pac_report
 from radar_normativo.economic import render_economic_report
 from radar_normativo.ai_search import answer_with_groq
 
@@ -39,6 +39,7 @@ HELP = """Comandi Radar Normativo e Finanziario:
 /finanzaoggi — alias di /finanza
 /finanzieri — ultima seduta disponibile entro ieri
 /finanza7giorni — andamento finanziario degli ultimi 7 giorni
+/miepac — riepilogo dei miei quattro fondi PAC
 
 Nota: dati automatici e indicativi; quotazioni eventualmente ritardate. Le schede normative non certificano la vigenza degli atti. I dati finanziari non costituiscono consulenza."""
 
@@ -141,6 +142,8 @@ def handle_command(
         return "Radar Normativo è pronto. Usa /aiuto per vedere i comandi."
     if command == "/mercati":
         return render_market_briefing()
+    if command == "/miepac":
+        return render_my_pac_report()
     if command == "/economia":
         return render_economic_report("economia")
     if command in {"/finanza", "/finanzaoggi"}:
@@ -278,6 +281,7 @@ def run_bot(
         {"command": "stato", "description": "Stato archivio normativo e fonti"},
         {"command": "economia", "description": "Quadro economico e lettura dei mercati"},
         {"command": "mercati", "description": "Quotazioni dei nove strumenti finanziari"},
+        {"command": "miepac", "description": "Andamento dei quattro fondi PAC personali"},
         {"command": "finanza", "description": "Riepilogo finanziario attuale"},
         {"command": "finanzaoggi", "description": "Alias del riepilogo finanziario"},
         {"command": "finanzieri", "description": "Ultima seduta disponibile entro ieri"},
