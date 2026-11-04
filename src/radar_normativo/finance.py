@@ -153,3 +153,31 @@ def render_finance_report(mode: str = "current") -> str:
         lines.append("Dati insufficienti per una valutazione complessiva.")
     lines.append("Dati storici indicativi da Yahoo Finance, eventualmente ritardati. La media non rappresenta il rendimento di un portafoglio e non è consulenza finanziaria.")
     return "\n".join(lines)
+
+
+# Fondi personali: separati dal radar generale, ma riusano i ticker Yahoo già configurati.
+MY_PAC_FUNDS = [
+    ("FF Global Industrials", "0P0000CO6N.F", "LU0114723033"),
+    ("JPM China A-Share", "0P0001LMEZ.F", "LU1255011097"),
+    ("Fidelity Funds Italy", "0P0001BRM8.F", "LU0283901063"),
+    ("FF India Focus", "0P00000ZJK.F", "LU2178498379"),
+]
+
+def render_my_pac_report() -> str:
+    """Riepilogo separato dei quattro fondi personali con quotazioni indicative."""
+    lines = ["💼 I MIEI PAC — FONDI PERSONALI",
+             f"🕒 {datetime.now(ROME).strftime('%d/%m/%Y %H:%M')} (ora italiana)", ""]
+    for name, symbol, isin in MY_PAC_FUNDS:
+        try:
+            quote = _fetch_chart(symbol)
+            value = f"{quote['value']:,.4f} {quote.get('currency') or ''}".strip()
+            change = quote.get("change_pct")
+            variation = f"{change:+.2f}%" if change is not None else "n.d."
+            icon = "🟢" if change is not None and change > 0.05 else "🔴" if change is not None and change < -0.05 else "🟡"
+            stamp = quote.get("time")
+            when = stamp.strftime("%d/%m %H:%%M") if stamp else "ora n.d."
+            lines.append(f"{icon} {name} ({isin})\\n   Quota: {value} · variazione: {variation} · {when}")
+        except (urllib.error.URLError, TimeoutError, ValueError, KeyError, TypeError, json.JSONDecodeError):
+            lines.append(f"⚪ {name} ({isin}): quotazione non disponibile ({symbol})")
+    lines.extend(["", "Dati indicativi Yahoo Finance, potenzialmente ritardati; variazione giornaliera, non rendimento del PAC."])
+    return "\\n".join(lines)
