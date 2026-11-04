@@ -23,6 +23,7 @@ const HELP = `Comandi Radar Normativo e Finanziario:
 /finanzaoggi — alias di /finanza
 /finanzieri — ultima seduta disponibile entro ieri
 /finanza7giorni — andamento finanziario degli ultimi 7 giorni
+/miepac — quotazioni dei quattro fondi PAC personali
 
 Nota: dati automatici e indicativi; quotazioni eventualmente ritardate. Le schede normative non certificano la vigenza degli atti. I dati finanziari non costituiscono consulenza.`;
 
@@ -46,6 +47,14 @@ export const BOT_COMMANDS = [
   ["finanzaoggi", "Alias del riepilogo finanziario"],
   ["finanzieri", "Quotazioni dell'ultima seduta entro ieri"],
   ["finanza7giorni", "Andamento finanziario degli ultimi 7 giorni"],
+  ["miepac", "Quotazioni dei quattro fondi PAC personali"],
+];
+
+const MY_PAC_FUNDS = [
+  ["FF Global Industrials", "0P0000CO6N.F", "LU0114723033"],
+  ["JPM China A-Share", "0P0001LMEZ.F", "LU1255011097"],
+  ["Fidelity Funds Italy", "0P0001BRM8.F", "LU0283901063"],
+  ["FF India Focus", "0P00000ZJK.F", "LU2178498379"],
 ];
 
 const INSTRUMENTS = [
@@ -477,6 +486,33 @@ async function testGroqConnection(env, deps = {}) {
   return `❌ Verifica Groq non riuscita. ${groqErrorLabel(result)} La chiave non viene mai mostrata.`;
 }
 
+export async function renderMyPac(fetchFn = fetchChart, now = new Date()) {
+  const quotes = await Promise.all(MY_PAC_FUNDS.map(async ([name, symbol, isin]) => {
+    try {
+      const quote = await fetchFn(symbol);
+      const value = Number(quote.value);
+      if (!Number.isFinite(value)) throw new Error("prezzo non valido");
+      return { name, symbol, isin, quote: { ...quote, value }, ok: true };
+    } catch {
+      return { name, symbol, isin, ok: false };
+    }
+  }));
+  const lines = ["💼 I MIEI PAC — FONDI PERSONALI", `🕒 ${nowFmt.format(now).replace(",", "")} (ora italiana)`, ""];
+  for (const row of quotes) {
+    if (!row.ok) {
+      lines.push(`⚪ ${row.name} (${row.isin}): quotazione non disponibile (${row.symbol})`);
+      continue;
+    }
+    const { value, change, currency, time } = row.quote;
+    const variation = change == null || !Number.isFinite(Number(change)) ? "n.d." : `${sgn(Number(change))}%`;
+    const icon = change == null ? "⚪" : change > 0.05 ? "🟢" : change < -0.05 ? "🔴" : "🟡";
+    const stamp = time ? stampFmt.format(time).replace(",", "") : "ora n.d.";
+    lines.push(`${icon} ${row.name} (${row.isin})\n   Quota: ${value.toLocaleString("en-US", { minimumFractionDigits: 4, maximumFractionDigits: 4 })} ${currency || ""} · variazione: ${variation} · ${stamp}`);
+  }
+  lines.push("", "Dati indicativi da Yahoo Finance, eventualmente ritardati; variazione giornaliera, non rendimento del PAC. Non è consulenza finanziaria.");
+  return lines.join("\n").slice(0, 3900);
+}
+
 // ---------- comandi ----------
 export async function handleCommand(text, chatId, env, deps = {}) {
   const raw = text.trim();
@@ -492,6 +528,8 @@ export async function handleCommand(text, chatId, env, deps = {}) {
     case "/aiuto":
     case "/help":
       return HELP;
+    case "/miepac":
+      return renderMyPac(deps.fetchChart || fetchChart, deps.now || new Date());
     case "/mercati":
     case "/finanza":
     case "/finanzaoggi":

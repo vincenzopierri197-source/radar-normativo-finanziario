@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { handleCommand, renderMarkets, renderHistoricalMarkets, publishedDay, parseEconomicRss, ghJson, archiveItems, sendMessage } from "./src/index.js";
+import { handleCommand, renderMarkets, renderMyPac, renderHistoricalMarkets, publishedDay, parseEconomicRss, ghJson, archiveItems, sendMessage } from "./src/index.js";
 
 const today = new Date().toISOString();
 const archive = { updated_at: today, items: [
@@ -99,6 +99,32 @@ test("valutazione mercati integra Groq e verifica davvero la chiave", async () =
     fetchGroq: async () => new Response("unauthorized", { status: 401 })
   });
   assert.match(invalid, /HTTP 401\/403/);
+});
+
+test("comando /miepac elenca i quattro fondi separatamente con fallback quote", async () => {
+  const symbols = [];
+  const report = await handleCommand("/miepac@RadarBot", 1, env(), {
+    now: new Date("2026-11-04T10:00:00Z"),
+    fetchChart: async (symbol) => {
+      symbols.push(symbol);
+      if (symbol === "0P0001LMEZ.F") throw new Error("Yahoo indisponibile");
+      return { value: 123.4567, change: 0.8, currency: "EUR", time: new Date("2026-11-04T09:00:00Z") };
+    }
+  });
+  assert.match(report, /I MIEI PAC/);
+  for (const isin of ["LU0114723033", "LU1255011097", "LU0283901063", "LU2178498379"]) assert.match(report, new RegExp(isin));
+  assert.match(report, /JPM China A-Share .*quotazione non disponibile/);
+  assert.match(report, /Yahoo Finance/);
+  assert.equal(symbols.length, 4);
+  const help = await handleCommand("/aiuto", 1, env());
+  assert.match(help, /miepac/);
+  assert.match(JSON.stringify((await import("./src/index.js")).BOT_COMMANDS), /miepac/);
+});
+
+test("renderMyPac conserva fallback quando tutti i ticker falliscono", async () => {
+  const report = await renderMyPac(async () => { throw new Error("offline"); }, new Date("2026-11-04T10:00:00Z"));
+  assert.equal((report.match(/quotazione non disponibile/g) || []).length, 4);
+  assert.match(report, /LU2178498379/);
 });
 
 test("comandi finanziari storici", async () => {
