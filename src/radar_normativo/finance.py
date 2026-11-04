@@ -175,9 +175,9 @@ def render_my_pac_report() -> str:
             variation = f"{change:+.2f}%" if change is not None else "n.d."
             icon = "🟢" if change is not None and change > 0.05 else "🔴" if change is not None and change < -0.05 else "🟡"
             stamp = quote.get("time")
-            when = stamp.strftime("%d/%m %H:%%M") if stamp else "ora n.d."
-            lines.append(f"{icon} {name} ({isin})\\n   Quota: {value} · variazione: {variation} · {when}")
+            when = stamp.strftime("%d/%m %H:%M") if stamp else "ora n.d."
+            lines.append(f"{icon} {name} ({isin})\n   Quota: {value} · variazione: {variation} · {when}")
         except (urllib.error.URLError, TimeoutError, ValueError, KeyError, TypeError, json.JSONDecodeError):
             lines.append(f"⚪ {name} ({isin}): quotazione non disponibile ({symbol})")
     lines.extend(["", "Dati indicativi Yahoo Finance, potenzialmente ritardati; variazione giornaliera, non rendimento del PAC."])
-    return "\\n".join(lines)
+    return "\n".join(lines)
