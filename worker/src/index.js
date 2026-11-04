@@ -507,10 +507,10 @@ export async function renderMyPac(fetchFn = fetchChart, now = new Date()) {
     const variation = change == null || !Number.isFinite(Number(change)) ? "n.d." : `${sgn(Number(change))}%`;
     const icon = change == null ? "⚪" : change > 0.05 ? "🟢" : change < -0.05 ? "🔴" : "🟡";
     const stamp = time ? stampFmt.format(time).replace(",", "") : "ora n.d.";
-    lines.push(`${icon} ${row.name} (${row.isin})\\n   Quota: ${value.toLocaleString("en-US", { minimumFractionDigits: 4, maximumFractionDigits: 4 })} ${currency || ""} · variazione: ${variation} · ${stamp}`);
+    lines.push(`${icon} ${row.name} (${row.isin})\n   Quota: ${value.toLocaleString("en-US", { minimumFractionDigits: 4, maximumFractionDigits: 4 })} ${currency || ""} · variazione: ${variation} · ${stamp}`);
   }
   lines.push("", "Dati indicativi da Yahoo Finance, eventualmente ritardati; variazione giornaliera, non rendimento del PAC. Non è consulenza finanziaria.");
-  return lines.join("\\n").slice(0, 3900);
+  return lines.join("\n").slice(0, 3900);
 }
 
 // ---------- comandi ----------
