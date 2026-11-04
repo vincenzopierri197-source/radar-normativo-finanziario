@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Feed RSS ufficiali italiani ed europei. Le fonti opzionali possono essere temporaneamente indisponibili senza bloccare le altre raccolte; la presenza nel feed non certifica lo stato giuridico dell'atto.",
+  "description": "Feed RSS ufficiali italiani ed europei. Le fonti opzionali possono essere temporaneamente indisponibili senza bloccare le altre raccolte; la presenza nel feed non certifica lo stato giuridico dell'atto. Include fonti aggiuntive usate da Eco_nomy-analizer: Governo, Camera, altre sezioni EUR-Lex, archivio Normattiva e Linked Open Data del Senato.",
   "sources": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
@@ -24,17 +24,45 @@
       "required": true
     },
     {
-      "name": "Senato — Disegni di legge presentati",
-      "url": "https://www.senato.it/static/bgt/UltimiAtti/feedDDL.xml",
+      "name": "EUR-Lex — Legislazione Parlamento e Consiglio",
+      "url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=162",
+      "language": "en",
+      "category": "normativa_europea",
+      "required": false
+    },
+    {
+      "name": "EUR-Lex — Proposte della Commissione",
+      "url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=161",
+      "language": "en",
+      "category": "normativa_europea",
+      "required": false
+    },
+    {
+      "name": "Senato — Disegni di legge presentati (Linked Open Data)",
+      "sparql": "https://dati.senato.it/sparql",
       "language": "it",
       "category": "attivita_parlamentare",
       "required": false
     },
     {
-      "name": "Senato — Atti del Governo sottoposti a parere parlamentare",
-      "url": "https://www.senato.it/static/bgt/UltimiAtti/feedADG.xml",
+      "name": "Camera — Disegni di legge annunciati",
+      "url": "https://documenti.camera.it/apps/rssFeeds/ultimiPDL/pdlUltimiAnnunciati.asp?idLegislatura=19",
       "language": "it",
       "category": "attivita_parlamentare",
+      "required": false
+    },
+    {
+      "name": "Governo italiano",
+      "url": "https://www.governo.it/it/rss.xml",
+      "language": "it",
+      "category": "normativa_italiana",
+      "required": false
+    },
+    {
+      "name": "Normattiva — Archivio novità",
+      "site": "https://www.normattiva.it/showArchivioNews",
+      "language": "it",
+      "category": "normativa_italiana",
       "required": false
     }
   ]

@@ -111,3 +111,58 @@ def test_malformed_empty_feed_is_reported(tmp_path, monkeypatch):
     result = collect_sources(config)
     assert result["source_results"][0]["ok"] is False
     assert "syntax error" in result["source_results"][0]["error"]
+
+
+def test_parses_official_html_archive_titles_dates_and_links():
+    from radar_normativo.collector import _parse_html_news
+
+    html = b"""<h2>Nuovo decreto fiscale</h2>
+    <a href="/atti/decreto-123">Testo completo</a>
+    <time>4 novembre 2026</time>"""
+    entries = _parse_html_news(html, "https://www.normattiva.it/showArchivioNews")
+
+    assert len(entries) == 1
+    assert entries[0]["title"] == "Nuovo decreto fiscale"
+    assert entries[0]["link"] == "https://www.normattiva.it/atti/decreto-123"
+    assert entries[0]["published"] == "2026-11-04T00:00:00+00:00"
+
+
+def test_parses_senato_sparql_results():
+    from radar_normativo.collector import _senato_bindings_to_entries
+
+    payload = {
+        "results": {"bindings": [{
+            "titolo": {"value": "Disegno di legge in materia fiscale"},
+            "dataPresentazione": {"value": "2026-11-04"},
+            "ddl": {"value": "https://www.senato.it/ddl/123"},
+        }]}
+    }
+
+    entries = _senato_bindings_to_entries(payload)
+
+    assert entries == [{
+        "title": "Disegno di legge in materia fiscale",
+        "link": "https://www.senato.it/ddl/123",
+        "published": "2026-11-04T00:00:00+00:00",
+        "summary": "",
+    }]
+
+
+def test_collects_sources_configured_as_site_or_sparql(tmp_path, monkeypatch):
+    import radar_normativo.collector as collector
+
+    config = tmp_path / "sources.json"
+    config.write_text(json.dumps({"sources": [
+        {"name": "Normattiva", "site": "https://example.test/news", "required": False},
+        {"name": "Senato", "sparql": "https://example.test/sparql", "required": False},
+    ]}), encoding="utf-8")
+    entry = {"title": "Nuova norma fiscale", "link": "https://example.test/atto", "published": "2026-11-04"}
+
+    monkeypatch.setattr(collector, "_parse_normattiva_site", lambda _: [entry])
+    monkeypatch.setattr(collector, "_parse_senato_sparql", lambda _: [entry])
+    result = collect_sources(config)
+
+    assert result["item_count"] == 1
+    assert [source["ok"] for source in result["source_results"]] == [True, True]
+    assert result["source_results"][0]["items"] == 1
+    assert result["items"][0]["source_url"] == "https://example.test/sparql"
