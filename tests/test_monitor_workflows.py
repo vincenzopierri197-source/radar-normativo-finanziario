@@ -49,7 +49,7 @@ def test_failure_skipped_run_manual_run_and_previous_day_do_not_count():
     }
 
     assert missing_reports(
-        runs, {1, 2, 3, 4}, datetime(2026, 11, 3, 15, 0, tzinfo=timezone.utc)
+        runs, {1, 3, 4}, datetime(2026, 11, 3, 15, 0, tzinfo=timezone.utc)
     ) == ["collect.yml", "finance.yml"]
 
 
