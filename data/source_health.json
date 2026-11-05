@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:23:18.347267+00:00",
+  "generated_at": "2026-11-05T13:54:35.777067+00:00",
   "source_results": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
@@ -39,9 +39,9 @@
     },
     {
       "name": "Camera — Disegni di legge annunciati",
-      "ok": true,
+      "ok": false,
       "required": false,
-      "items": 5
+      "error": "ValueError: RSS/Atom non valido: <unknown>:2:0: not well-formed (invalid token)"
     },
     {
       "name": "Governo italiano",
