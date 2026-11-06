@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-05T13:54:35.777067+00:00",
+  "generated_at": "2026-11-06T13:40:05.526784+00:00",
   "source_results": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
       "ok": true,
       "required": true,
-      "items": 23
+      "items": 20
     },
     {
       "name": "Gazzetta Ufficiale — Corte costituzionale",
@@ -39,9 +39,9 @@
     },
     {
       "name": "Camera — Disegni di legge annunciati",
-      "ok": false,
+      "ok": true,
       "required": false,
-      "error": "ValueError: RSS/Atom non valido: <unknown>:2:0: not well-formed (invalid token)"
+      "items": 5
     },
     {
       "name": "Governo italiano",
@@ -53,7 +53,7 @@
       "name": "Normattiva — Archivio novità",
       "ok": true,
       "required": false,
-      "items": 252
+      "items": 256
     }
   ]
 }
