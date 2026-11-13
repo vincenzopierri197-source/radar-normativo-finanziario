@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T14:32:03.040165+00:00",
+  "generated_at": "2026-11-13T13:50:33.043785+00:00",
   "source_results": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
       "ok": true,
       "required": true,
-      "items": 25
+      "items": 24
     },
     {
       "name": "Gazzetta Ufficiale — Corte costituzionale",
@@ -53,7 +53,7 @@
       "name": "Normattiva — Archivio novità",
       "ok": true,
       "required": false,
-      "items": 263
+      "items": 265
     }
   ]
 }
