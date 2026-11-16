@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:08:39.764057+00:00",
+  "generated_at": "2026-11-16T14:36:12.368371+00:00",
   "source_results": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
@@ -33,9 +33,9 @@
     },
     {
       "name": "Senato — Disegni di legge presentati (Linked Open Data)",
-      "ok": false,
+      "ok": true,
       "required": false,
-      "error": "RuntimeError: HTTP 503 durante il download"
+      "items": 0
     },
     {
       "name": "Camera — Disegni di legge annunciati",
@@ -53,7 +53,7 @@
       "name": "Normattiva — Archivio novità",
       "ok": true,
       "required": false,
-      "items": 265
+      "items": 267
     }
   ]
 }
