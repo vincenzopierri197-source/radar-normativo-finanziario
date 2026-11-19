@@ -18,7 +18,7 @@
     },
     {
       "name": "EUR-Lex — Atti della Gazzetta ufficiale, serie L",
-      "url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=222",
+      "url": "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=165",
       "language": "en",
       "category": "normativa_europea",
       "required": true
