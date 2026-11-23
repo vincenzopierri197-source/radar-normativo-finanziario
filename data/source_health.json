@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:58:11.964046+00:00",
+  "generated_at": "2026-11-23T17:14:18.516529+00:00",
   "source_results": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
@@ -53,7 +53,7 @@
       "name": "Normattiva — Archivio novità",
       "ok": true,
       "required": false,
-      "items": 269
+      "items": 272
     }
   ]
 }
