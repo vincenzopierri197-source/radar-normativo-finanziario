@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T16:54:13.672974+00:00",
+  "generated_at": "2026-11-25T16:42:30.318041+00:00",
   "source_results": [
     {
       "name": "Gazzetta Ufficiale — Serie Generale",
       "ok": true,
       "required": true,
-      "items": 28
+      "items": 27
     },
     {
       "name": "Gazzetta Ufficiale — Corte costituzionale",
@@ -45,15 +45,15 @@
     },
     {
       "name": "Governo italiano",
-      "ok": false,
+      "ok": true,
       "required": false,
-      "error": "RuntimeError: HTTP 403 durante il download"
+      "items": 10
     },
     {
       "name": "Normattiva — Archivio novità",
       "ok": true,
       "required": false,
-      "items": 272
+      "items": 275
     }
   ]
 }
