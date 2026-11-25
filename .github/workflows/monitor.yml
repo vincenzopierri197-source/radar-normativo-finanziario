@@ -1,6 +1,7 @@
 name: Monitoraggio report giornalieri
 
 on:
+  workflow_dispatch:
   # I radar riprovano fino alle 12:00 UTC; il margine lascia concludere i job
   # avviati nell'ultimo slot. UTC fisso evita cron mancanti nei cambi DST.
   schedule:
