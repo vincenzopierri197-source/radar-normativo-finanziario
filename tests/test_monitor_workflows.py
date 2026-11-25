@@ -1,6 +1,11 @@
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
-from radar_normativo.monitor_workflows import _report_step_succeeded, missing_reports
+from radar_normativo.monitor_workflows import (
+    _report_day,
+    _report_step_succeeded,
+    missing_reports,
+)
 
 
 def test_accepts_successful_delayed_report_steps_later_in_rome_day():
@@ -53,22 +58,47 @@ def test_failure_skipped_run_manual_run_and_previous_day_do_not_count():
     ) == ["collect.yml", "finance.yml"]
 
 
-def test_uses_rome_calendar_date_across_utc_midnight_and_dst():
+def test_rollover_uses_previous_rome_day_until_0559():
+    rome = ZoneInfo("Europe/Rome")
+    assert _report_day(datetime(2026, 11, 25, 5, 59, tzinfo=rome)) == "2026-11-24"
+    assert _report_day(datetime(2026, 11, 25, 6, 0, tzinfo=rome)) == "2026-11-25"
+
+
+def test_monitor_at_0549_accepts_previous_evening_scheduled_deliveries():
     runs = {
         "collect.yml": [{
             "id": 1, "event": "schedule", "conclusion": "success",
-            "created_at": "2026-03-29T22:30:00Z",  # 30 marzo a Roma
+            "created_at": "2026-11-24T15:30:00Z",
         }],
         "finance.yml": [{
             "id": 2, "event": "schedule", "conclusion": "success",
-            "created_at": "2026-03-29T20:30:00Z",  # 29 marzo a Roma
+            "created_at": "2026-11-24T15:20:00Z",
         }],
     }
 
     assert missing_reports(
-        runs, {1, 2}, datetime(2026, 3, 30, 0, 15, tzinfo=timezone.utc)
-    ) == ["finance.yml"]
+        runs, {1, 2}, datetime(2026, 11, 25, 4, 49, tzinfo=ZoneInfo("Europe/Rome"))
+    ) == []
 
+
+def test_missing_previous_cycle_delivery_is_still_reported_before_six():
+    runs = {
+        "collect.yml": [],
+        "finance.yml": [{
+            "id": 2, "event": "schedule", "conclusion": "success",
+            "created_at": "2026-11-24T15:20:00Z",
+        }],
+    }
+
+    assert missing_reports(
+        runs, {2}, datetime(2026, 11, 25, 4, 49, tzinfo=ZoneInfo("Europe/Rome"))
+    ) == ["collect.yml"]
+
+
+def test_dst_transition_keeps_rome_local_cycle_boundary():
+    rome = ZoneInfo("Europe/Rome")
+    assert _report_day(datetime(2026, 3, 30, 1, 15, tzinfo=rome)) == "2026-03-29"
+    assert _report_day(datetime(2026, 3, 30, 6, 0, tzinfo=rome)) == "2026-03-30"
 
 
 def test_report_monitor_requires_the_named_telegram_step_to_succeed():
