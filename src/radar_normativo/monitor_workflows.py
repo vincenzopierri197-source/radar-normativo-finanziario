@@ -12,14 +12,26 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 ROME = ZoneInfo("Europe/Rome")
+# I retry dei radar possono protrarsi nelle prime ore del giorno successivo.
+# Fino alle 05:59 il monitor verifica quindi il ciclo del giorno precedente.
+ROLLOVER_HOUR = 6
+
 WORKFLOWS = {
     "collect.yml": "Send normative daily Telegram briefing",
     "finance.yml": "Send independent financial briefing to Telegram",
 }
+
+
+def _report_day(now: datetime) -> str:
+    """Restituisce il giorno del ciclo da verificare, in fuso Europe/Rome."""
+    current = now.astimezone(ROME)
+    if current.hour < ROLLOVER_HOUR:
+        current -= timedelta(days=1)
+    return current.date().isoformat()
 
 
 def _local_day(run: dict) -> str | None:
@@ -32,10 +44,10 @@ def _local_day(run: dict) -> str | None:
         return None
 
 
-def _same_day_runs(runs: list[dict], today: str) -> list[dict]:
+def _same_day_runs(runs: list[dict], report_day: str) -> list[dict]:
     return [
         run for run in runs
-        if run.get("event") == "schedule" and _local_day(run) == today
+        if run.get("event") == "schedule" and _local_day(run) == report_day
     ]
 
 
@@ -44,16 +56,16 @@ def missing_reports(
     successful_report_ids: set[int],
     now: datetime | None = None,
 ) -> list[str]:
-    """Workflow senza invio Telegram riuscito nella data italiana."""
+    """Workflow senza invio Telegram riuscito nel ciclo giornaliero atteso."""
     current = now or datetime.now(ROME)
-    today = current.astimezone(ROME).date().isoformat()
+    report_day = _report_day(current)
     missing = []
     for workflow in WORKFLOWS:
-        todays = _same_day_runs(workflow_runs.get(workflow, []), today)
+        daily_runs = _same_day_runs(workflow_runs.get(workflow, []), report_day)
         if not any(
             run.get("conclusion") == "success"
             and run.get("id") in successful_report_ids
-            for run in todays
+            for run in daily_runs
         ):
             missing.append(workflow)
     return missing
@@ -111,10 +123,10 @@ def main() -> int:
     try:
         runs = {workflow: _fetch_runs(repo, workflow, token) for workflow in WORKFLOWS}
         now = datetime.now(ROME)
-        today = now.date().isoformat()
+        report_day = _report_day(now)
         successful_report_ids = set()
         for workflow, step_name in WORKFLOWS.items():
-            for run in _same_day_runs(runs.get(workflow, []), today):
+            for run in _same_day_runs(runs.get(workflow, []), report_day):
                 run_id = run.get("id")
                 if run_id and run.get("conclusion") == "success" and _fetch_report_succeeded(
                     repo, run_id, step_name, token
@@ -126,11 +138,11 @@ def main() -> int:
 
     missing = missing_reports(runs, successful_report_ids, now)
     for workflow in WORKFLOWS:
-        todays = _same_day_runs(runs.get(workflow, []), today)
-        if not todays:
-            print(f"NESSUN RUN SCHEDULATO OGGI: {workflow}")
+        daily_runs = _same_day_runs(runs.get(workflow, []), report_day)
+        if not daily_runs:
+            print(f"NESSUN RUN SCHEDULATO NEL CICLO {report_day}: {workflow}")
             continue
-        for run in todays:
+        for run in daily_runs:
             local = _local_day(run)
             print(
                 f"{workflow}: run {run.get('id')} "
@@ -139,9 +151,12 @@ def main() -> int:
             )
 
     if missing:
-        print("::error::Nessun invio Telegram riuscito oggi (Europe/Rome) per: " + ", ".join(missing))
+        print(
+            f"::error::Nessun invio Telegram riuscito nel ciclo {report_day} "
+            f"(Europe/Rome) per: " + ", ".join(missing)
+        )
         return 1
-    print("Verifica OK: entrambi i radar hanno consegnato il report giornaliero a Telegram.")
+    print(f"Verifica OK: entrambi i radar hanno consegnato il report Telegram del ciclo {report_day}.")
     return 0
 
 
